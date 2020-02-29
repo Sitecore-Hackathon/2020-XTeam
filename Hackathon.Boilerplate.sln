@@ -47,9 +47,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xTeam.Feature.Modules", "sr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serialization", "{5DB03B45-4B26-4241-B65B-EFD12B389C9C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{BE0D6B88-5CCF-412F-B65B-F22BCE35ABEE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Community", "Community", "{BE0D6B88-5CCF-412F-B65B-F22BCE35ABEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xTeam.Project.Common", "src\Project\Common\website\xTeam.Project.Common.csproj", "{37773362-1E17-4B39-9833-A7A9D9236C28}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xTeam.Project.Community", "src\Project\Community\website\xTeam.Project.Community.csproj", "{37773362-1E17-4B39-9833-A7A9D9236C28}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
