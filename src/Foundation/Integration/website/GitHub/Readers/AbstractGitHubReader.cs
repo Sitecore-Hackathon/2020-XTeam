@@ -10,12 +10,20 @@ namespace xTeam.Foundation.Integration.GitHub.Readers
         public virtual ReadResult Read(object source, DataAccessContext context)
         {
             var repoModel = source as RepoModel;
-            if (repoModel == null)
+            if (repoModel == null || string.IsNullOrWhiteSpace(repoModel.Owner) || string.IsNullOrWhiteSpace(repoModel.Owner))
             {
                 return ReadResult.NegativeResult(DateTime.Now);
             }
             var client = new GitHubClient(new ProductHeaderValue(GitHubEndpointConverter.AppName));
-            var value = Task.Run(() => GetGitHubValue(client, repoModel)).Result;
+            string value = string.Empty;
+            try
+            {
+                value = Task.Run(() => GetGitHubValue(client, repoModel)).Result;
+            }
+            catch (Exception ex) {                
+                return ReadResult.NegativeResult(DateTime.Now);
+            }
+
             return ReadResult.PositiveResult(value, DateTime.Now);
         }
 
