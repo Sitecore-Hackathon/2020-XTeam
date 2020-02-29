@@ -1,0 +1,18 @@
+﻿---
+ID: "3cb47e67-8e22-4366-b85e-1b3171f75416"
+Parent: "75d679f4-9ef2-4bc7-b75f-4eb5c4d4d356"
+Template: "5ab4ae85-0e97-4afb-8498-b93c657a0df0"
+Path: /sitecore/content/Community/Marketplace/Data/Plain HTML
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T052508Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

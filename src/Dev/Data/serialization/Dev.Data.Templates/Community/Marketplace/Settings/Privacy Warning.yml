@@ -1,0 +1,18 @@
+﻿---
+ID: "83686e0c-4c6b-4829-a024-2220fd796f93"
+Parent: "5992b780-1838-4c7c-80d5-be07dc158082"
+Template: "dc66d5da-3216-48e6-ae78-bac8445b6a46"
+Path: /sitecore/content/Community/Marketplace/Settings/Privacy Warning
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T052443Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

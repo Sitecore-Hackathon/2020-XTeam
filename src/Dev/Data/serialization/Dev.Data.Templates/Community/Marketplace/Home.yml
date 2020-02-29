@@ -1,0 +1,29 @@
+﻿---
+ID: "f962105e-c9ce-44c7-aaab-a0a78466f5ca"
+Parent: "449a9d3d-cc5a-4ad2-bf48-e74876bcd460"
+Template: "d183dbf9-adc6-452f-802c-dcd4fe455783"
+Path: /sitecore/content/Community/Marketplace/Home
+DB: master
+BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{92EB9EFB-88D4-4089-82BE-AAD92D4FA24E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T052426Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Marketplace
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "68f8c50f-6eca-44a1-b630-a2960125e61b"
+      Hint: Title
+      Value: Marketplace
