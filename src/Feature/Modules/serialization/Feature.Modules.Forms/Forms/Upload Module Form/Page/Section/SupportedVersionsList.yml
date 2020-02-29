@@ -1,8 +1,8 @@
 ﻿---
 ID: "8649b147-eb4e-4f06-bafc-d84653f273b8"
-Parent: "49c9f2b4-0d1f-4a72-89f6-15903f64c72f"
+Parent: "d5a314e2-d7cf-4795-b435-95f67ddfad81"
 Template: "5b672865-55d2-413e-b699-fdfc7e732ccf"
-Path: /sitecore/Forms/Upload Module Form/Page/SupportedVersionsList
+Path: /sitecore/Forms/Upload Module Form/Page/Section/SupportedVersionsList
 DB: master
 SharedFields:
 - ID: "467c22b4-b1a2-4620-b8bb-74c2d8b369fc"
@@ -33,7 +33,7 @@ SharedFields:
   Value: 399F46FBCAD242239B7537DF460807EE
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 500
+  Value: 0
 Languages:
 - Language: en
   Versions:
