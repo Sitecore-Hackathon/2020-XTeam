@@ -70,6 +70,17 @@ Remember you are using Markdown, you can provide code samples too:
 
 ## Usage
 
+There is already substantial content and marketing assets attached to the Marketplace website that can
+be reasonably reused in any web redesign. Rather than focusing on what would amount to a proposal for a 
+site design, this solution demonstrates how in a very short time, several technical needs of the marketplace
+website simply by integrating OOTB Sitecore components with some minor integration efforts.
+
+We have two primary classes of users for our solution:
+- Contributors submitting Sitecore modules for consumption by the community.
+- Consumers coming to the marketplace seeking Sitecore components.
+
+Contributors
+
 Provide documentation  about your module, how do the users use your module, where are things located, what do icons mean, are there any secret shortcuts etc.
 
 Please include screenshots where necessary. You can add images to the `./images` folder and then link to them from your documentation:
