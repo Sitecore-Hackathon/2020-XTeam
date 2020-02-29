@@ -1,0 +1,23 @@
+﻿---
+ID: "351f6843-2190-4ed4-b465-bd6b81fb0ba4"
+Parent: "10881329-9ee5-4eaf-a2cd-341e3e75779c"
+Template: "10881329-9ee5-4eaf-a2cd-341e3e75779c"
+Path: /sitecore/templates/Feature/Modules/Product Line/Product Line Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{708EC0E4-221B-4891-BFE6-D6ABBE933239}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T054059Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
