@@ -1,8 +1,8 @@
 ﻿---
-ID: "67197c1a-d2d7-4b77-8c70-07c39bbe8c61"
+ID: "ec7d1116-3205-49b6-9ec4-4dad9602124c"
 Parent: "159f1fa5-54ab-4fdc-876f-e0c427e0a98d"
-Template: "51e67dfc-cca5-4283-9157-50d310732f11"
-Path: /sitecore/content/Community/Marketplace/Home/Module Item Folder/TEST2
+Template: "adb6ca4f-03ef-4f47-b9ac-9ce2ba53ff97"
+Path: /sitecore/content/Community/Marketplace/Home/Module Item Folder/2020
 DB: master
 Languages:
 - Language: en
@@ -11,4 +11,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200229T124704Z
+      Value: 20200229T072655Z
