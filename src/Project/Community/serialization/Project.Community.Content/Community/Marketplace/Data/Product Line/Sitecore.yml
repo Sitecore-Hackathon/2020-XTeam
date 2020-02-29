@@ -1,0 +1,20 @@
+﻿---
+ID: "7ac73065-89c3-4542-ace4-7f4f88f5693a"
+Parent: "36302d12-158b-437d-8eb0-6d5fd1881714"
+Template: "708ec0e4-221b-4891-bfe6-d6abbe933239"
+Path: /sitecore/content/Community/Marketplace/Data/Product Line/Sitecore
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T060750Z
+    - ID: "8f1802c6-f81c-4689-bdfd-03b566ef56a4"
+      Hint: Value
+      Value: XP
+    - ID: "978d47d4-442f-4da1-82a3-9c5dd26fd0dc"
+      Hint: Title
+      Value: Sitecore

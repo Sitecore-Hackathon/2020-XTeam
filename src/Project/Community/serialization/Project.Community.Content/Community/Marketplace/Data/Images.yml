@@ -4,6 +4,10 @@ Parent: "75d679f4-9ef2-4bc7-b75f-4eb5c4d4d356"
 Template: "861d0715-e397-4114-870a-7fbb1fe8c9d6"
 Path: /sitecore/content/Community/Marketplace/Data/Images
 DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1400
 Languages:
 - Language: en
   Versions:

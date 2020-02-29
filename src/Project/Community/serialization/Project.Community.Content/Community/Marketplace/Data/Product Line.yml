@@ -1,0 +1,18 @@
+﻿---
+ID: "36302d12-158b-437d-8eb0-6d5fd1881714"
+Parent: "75d679f4-9ef2-4bc7-b75f-4eb5c4d4d356"
+Template: "10881329-9ee5-4eaf-a2cd-341e3e75779c"
+Path: /sitecore/content/Community/Marketplace/Data/Product Line
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 225
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T055645Z

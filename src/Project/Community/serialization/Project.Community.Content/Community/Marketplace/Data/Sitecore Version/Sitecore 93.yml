@@ -1,0 +1,20 @@
+﻿---
+ID: "0c19a9d2-c025-4989-808c-9c77c0806d4b"
+Parent: "d619d3e6-17cf-48e0-9ab0-5c78b58e1c9a"
+Template: "bb3ad616-134b-4b14-8418-712e045371c0"
+Path: /sitecore/content/Community/Marketplace/Data/Sitecore Version/Sitecore 93
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T060153Z
+    - ID: "8f1802c6-f81c-4689-bdfd-03b566ef56a4"
+      Hint: Value
+      Value: 9.3
+    - ID: "978d47d4-442f-4da1-82a3-9c5dd26fd0dc"
+      Hint: Title
+      Value: Sitecore 9.3
