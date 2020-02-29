@@ -1,0 +1,59 @@
+﻿---
+ID: "f916076d-1afd-4e18-8f25-8e31d12388fb"
+Parent: "e035d9b6-1a77-4610-8855-7943f9415482"
+Template: "51e67dfc-cca5-4283-9157-50d310732f11"
+Path: "/sitecore/content/Community/Marketplace/Home/Module Item Folder/2020/02/29/19/49/TestApp-Us"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0a02003c-9c46-416d-8a28-5edaac8ae49c"
+      Hint: Release Date
+      Value: 20200229T134946
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T194952Z
+    - ID: "29ffcf6a-3300-4eef-bd80-59aa99404d18"
+      Hint: Download Count
+      Value: 0
+    - ID: "345d5bb4-a027-4a69-ac4f-a145e05474e2"
+      Hint: Git Hub URL
+      Value: "http://1234.github.com"
+    - ID: "4d64ce38-4dda-4072-a4f1-a781d09babd9"
+      Hint: Documentation URL
+      Value: "http://1234.com"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        extranet\Anonymous
+    - ID: "61b1cb45-6894-4931-8138-7d37864c4eaf"
+      Hint: Stars
+      Value: 0
+    - ID: "73a766c5-576a-49c3-ba97-43c5c75cb759"
+      Hint: Title
+      Value: TestApp
+    - ID: "94d22b54-63c5-49b8-ad51-a214b7805418"
+      Hint: Product Line
+      Value: "System.Collections.Generic.List`1[System.String]"
+    - ID: "96375f05-4682-479b-9512-4d97c3611f16"
+      Hint: Author
+      Value: Us
+    - ID: "a14f1b0c-4384-49ec-8790-28a440f3670c"
+      Hint: __Semantics
+      Type: Multilist with Search
+      Value: |
+        {A2467733-2326-43E5-9D67-1D79F0BB9D84}
+        {DFC61B82-7320-4679-8A51-CB6C424E65AD}
+        {16A37658-514A-4C5D-99F3-9F09E23AEE00}
+    - ID: "a6ec2225-f000-46a3-8fd0-a3d4812037f9"
+      Hint: Tested Against Sitecore Version
+      Type: Multilist
+      Value: "System.Collections.Generic.List`1[System.String]"
+    - ID: "b4633d93-7e3a-4d08-8b44-852cc925fd19"
+      Hint: Last Commit Date
+      Value: 20200229T134946
+    - ID: "d3741a17-c75f-49b0-80e9-dcbfbd2593f0"
+      Hint: Summary
+      Value: Summary

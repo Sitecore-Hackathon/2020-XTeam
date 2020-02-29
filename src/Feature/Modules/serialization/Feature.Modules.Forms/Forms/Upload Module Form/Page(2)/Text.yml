@@ -1,20 +1,17 @@
 ﻿---
-ID: "49c9f2b4-0d1f-4a72-89f6-15903f64c72f"
-Parent: "99b96a7d-a8b2-4055-ba42-fdfe9053690e"
-Template: "cfee7b51-8505-45ce-b843-9358f827df87"
-Path: /sitecore/Forms/Upload Module Form/Page
+ID: "e00c3442-bcce-4265-9ef0-909ce2f00a38"
+Parent: "eafed6cc-193d-4bc4-a60f-a00d8a8805f3"
+Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
+Path: /sitecore/Forms/Upload Module Form/Page(2)/Text
 DB: master
 SharedFields:
 - ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
   Hint: Conditions
   Value: |
     {"fieldConditions":[]}
-- ID: "7abaa3f6-6ec0-4b65-a463-7919bfae55aa"
-  Hint: Css Class
-  Value: "sitecore-form"
 - ID: "84ece662-5034-40cb-9c60-744db64bb294"
   Hint: Field Key
-  Value: A0F7630F29F649939BD7E53F778FFF35
+  Value: 1BFA5FF8140D427198492D37F07667CF
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 0
@@ -25,8 +22,11 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200229T042521Z
+      Value: 20200229T190535Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\pdoran
+    - ID: "9666782b-21bb-40ce-b38f-8f6c53fa5070"
+      Hint: Text
+      Value: Thanks for contributing. Your code will be available in the marketplace shortly. Keep making Sitecore great.

@@ -1,0 +1,18 @@
+﻿---
+ID: "e500fb6a-623e-4c01-9da4-2b5e8b3225a3"
+Parent: "8649b147-eb4e-4f06-bafc-d84653f273b8"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/Forms/Upload Module Form/Page/Section/SupportedVersionsList/Settings
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T053129Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\pdoran

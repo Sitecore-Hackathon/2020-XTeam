@@ -67,7 +67,7 @@ namespace xTeam.Feature.Modules.Module
                         Author = valueString;
                         break;
                     case "SupportedVersionsList":
-                        TestedAgainstSitecoreVersion = "9.3"; // valueString;
+                        TestedAgainstSitecoreVersion = valueString;
                         break;
                     case "ProductLine":
                         ProductLine = valueString;

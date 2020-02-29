@@ -1,20 +1,33 @@
 ﻿---
-ID: "207c5212-0ef1-4260-be65-527af75d5470"
+ID: "8d855776-8e67-4050-918b-d86aab4ad73a"
 Parent: "49c9f2b4-0d1f-4a72-89f6-15903f64c72f"
-Template: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
+Template: "9121d435-48b8-4649-9d13-03d680474fad"
 Path: /sitecore/Forms/Upload Module Form/Page/ProductLine
 DB: master
 SharedFields:
+- ID: "467c22b4-b1a2-4620-b8bb-74c2d8b369fc"
+  Hint: Label Css Class
+  Value: "sitecore-form"
+- ID: "492361e0-72d8-4847-82ba-ebfc235cf57b"
+  Hint: Display Field Name
+  Value: __ItemName
+- ID: "54424e06-0e7a-47a7-8cb2-7383d700472f"
+  Hint: Is Dynamic
+  Type: Checkbox
+  Value: 1
+- ID: "5be76442-950f-4c1f-a797-bebd71101abb"
+  Hint: Datasource
+  Value: "{36302D12-158B-437D-8EB0-6D5FD1881714}"
 - ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
   Hint: Conditions
   Value: |
     {"fieldConditions":[]}
+- ID: "7abaa3f6-6ec0-4b65-a463-7919bfae55aa"
+  Hint: Css Class
+  Value: "sitecore-form"
 - ID: "84ece662-5034-40cb-9c60-744db64bb294"
   Hint: Field Key
-  Value: E4FF9E5C366B48698542522D27FD5B9F
-- ID: "9f7da002-7b86-436b-8dda-7efe5837b88e"
-  Hint: Min Length
-  Value: 0
+  Value: 376132A437044C0C8279F5C6CA95D244
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 600
@@ -25,7 +38,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200229T053130Z
+      Value: 20200229T175941Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
