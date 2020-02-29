@@ -4,6 +4,10 @@ Parent: "75d679f4-9ef2-4bc7-b75f-4eb5c4d4d356"
 Template: "ed1b1ba7-4267-466f-a57a-8d96d2cb979d"
 Path: /sitecore/content/Community/Marketplace/Data/IFrames
 DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1300
 Languages:
 - Language: en
   Versions:

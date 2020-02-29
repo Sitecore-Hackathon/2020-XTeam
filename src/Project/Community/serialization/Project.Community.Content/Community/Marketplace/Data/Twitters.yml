@@ -4,6 +4,10 @@ Parent: "75d679f4-9ef2-4bc7-b75f-4eb5c4d4d356"
 Template: "041c1f9f-99a4-4ee6-8308-985499f91032"
 Path: /sitecore/content/Community/Marketplace/Data/Twitters
 DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 3000
 Languages:
 - Language: en
   Versions:

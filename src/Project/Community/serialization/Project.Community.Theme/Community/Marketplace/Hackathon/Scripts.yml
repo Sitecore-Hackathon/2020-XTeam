@@ -1,0 +1,18 @@
+﻿---
+ID: "aec92a80-97d4-4c18-87ee-4a0791ba65dd"
+Parent: "6bc14df7-8dfb-4978-9e59-bc7069df296b"
+Template: "536ef8ae-e6df-4aed-bd84-1f18de8cebf7"
+Path: /sitecore/media library/Themes/Community/Marketplace/Hackathon/Scripts
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: applications/16x16/folder.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180306T125740Z
