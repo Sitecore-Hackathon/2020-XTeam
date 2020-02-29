@@ -16,3 +16,7 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\pdoran
+    - ID: "dd05144a-bd66-4ea3-956a-4b7104daaba3"
+      Hint: Link
+      Value: |
+        <link linktype="internal" text="Marketplace" title="Marketplace" querystring="" target="" id="{F962105E-C9CE-44C7-AAAB-A0A78466F5CA}" />
