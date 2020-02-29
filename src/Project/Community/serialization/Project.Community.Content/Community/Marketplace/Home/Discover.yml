@@ -1,0 +1,64 @@
+﻿---
+ID: "1c802c0f-69a5-4af9-a628-4872fbbeb2f8"
+Parent: "f962105e-c9ce-44c7-aaab-a0a78466f5ca"
+Template: "453caf74-66c2-4985-84be-3ef6c8c65bec"
+Path: /sitecore/content/Community/Marketplace/Home/Discover
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{2DCADA50-F871-42A6-9D41-8FC7A61A0035}"
+              p:before="*"
+              s:ds="{84CF6208-180F-4400-902B-87F7AD00DD97}"
+              s:id="{09EAAD94-9FE3-4649-A8B1-EB19AA1ABDFB}"
+              s:par="Reset Caching Options&amp;GridParameters={908E2BC6-C110-4ED7-AF39-7EEACBB31A34}&amp;SearchSignature&amp;Styles&amp;FromDateDefaultOffset&amp;FromDateDisplayFormat={BC019866-AA38-417C-8ABA-1A097DAC8BCD}&amp;FromDateMonthsShown=1&amp;FromDatePastDays=1&amp;FromDateVisible=1&amp;ToDateDefaultOffset&amp;ToDateDisplayFormat={BC019866-AA38-417C-8ABA-1A097DAC8BCD}&amp;ToDateMonthsShown=1&amp;ToDateFutureDays=1&amp;ToDateVisible=1&amp;RenderingIdentifier"
+              s:ph="/main/column-1-2" />
+            <r
+              uid="{62089EE0-F54C-41C9-A870-BB8DB77CDC7E}"
+              p:after="r[@uid='{2DCADA50-F871-42A6-9D41-8FC7A61A0035}']"
+              s:ds="{FBB9CBEF-4511-40F7-B8AA-6B9AB5193E5D}"
+              s:id="{FAE0D244-55C1-4F1B-8ED5-590C9F131CEE}"
+              s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;SearchSignature&amp;FieldNames=%7BB2445D5C-348A-4D22-99EA-08BA91EE2B2B%7D&amp;Styles&amp;Scope&amp;PageSize=20&amp;DefaultLanguageFilter&amp;DefaultSortOrder&amp;AutoFireSearchWhenNoCriteriaSet=1&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+              s:ph="/main/column-2-2" />
+            <r
+              uid="{FBF089CC-009C-4382-97CB-E26267065F2E}"
+              p:after="r[@uid='{62089EE0-F54C-41C9-A870-BB8DB77CDC7E}']"
+              s:ds="{05191F81-4CB8-4395-80B0-0E73F5F04078}"
+              s:id="{C4060A7D-74EF-4998-9B8A-737EDB4E41B5}"
+              s:par="Reset Caching Options&amp;GridParameters={908E2BC6-C110-4ED7-AF39-7EEACBB31A34}&amp;SearchSignature&amp;Styles&amp;CollapsedModeTreshold&amp;RenderingIdentifier"
+              s:ph="/main/column-2-2" />
+            <r
+              uid="{136F36B5-1E27-43E8-833B-9291F1F9C265}"
+              p:after="r[@uid='{FBF089CC-009C-4382-97CB-E26267065F2E}']"
+              s:ds="{704ECFAC-DAC3-4A03-9324-5DCEA82D3527}"
+              s:id="{EECE4E4B-4E5F-42FD-A934-7AFD048AFD03}"
+              s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;SearchSignature&amp;FieldNames=%7B9FB266BD-CE03-4EE9-B238-3865FA51637E%7D&amp;Styles&amp;TargetSignature&amp;Scope&amp;MaxPredictiveResultsCount=5&amp;DefaultLanguageFilter=%7B35BC7B5B-9F6D-4AC5-8B1D-D55FC3EDE31F%7D&amp;SearchResultPage&amp;SearchTextBoxVisible=1&amp;SuggestionsMode=ShowSearchResults&amp;MinSuggestionsTriggerCharacterCount=2&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+              s:ph="main" />
+            <r
+              uid="{8B7C8A88-C213-4301-B38B-DC6352DAED98}"
+              p:after="*[1=2]"
+              s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+              s:par="ColumnWidth1=%7BD503428B-F850-42EF-98DF-923F15582406%7D&amp;ColumnWidth2=%7B47AF4C5D-C5CA-4D7C-B601-D74F82035C8A%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;DynamicPlaceholderId=2"
+              s:ph="main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T065715Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Discover
+    - ID: "68f8c50f-6eca-44a1-b630-a2960125e61b"
+      Hint: Title
+      Value: Discover
