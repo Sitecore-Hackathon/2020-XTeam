@@ -1,0 +1,44 @@
+﻿---
+ID: "53e28446-fbe5-4957-96d3-1adb976afadc"
+Parent: "494d03b5-e9e9-4d5a-823c-ae574a8d366d"
+Template: "8b649372-cc12-4f31-802a-8c3b3d09bb3f"
+Path: /sitecore/content/Community/Marketplace/Settings/Scopes/Scope
+DB: master
+SharedFields:
+- ID: "b04fe662-2b23-44dd-b971-2b864a1ec55f"
+  Hint: ScopeQuery
+  Value: "+location:{159F1FA5-54AB-4FDC-876F-E0C427E0A98D};template:{51E67DFC-CCA5-4283-9157-50D310732F11}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f628fd3-a28c-4da7-968b-dce9f3b71b5a"
+      Hint: Rule
+      Type: Rules
+      Value: |
+        <ruleset>
+          <rule
+            uid="{CFCAF567-BC0C-455D-B186-4B238508C015}">
+            <conditions>
+              <condition
+                id="{3C372973-5C9A-4C1D-9CC0-73BF89FB124F}"
+                uid="E83FC1FE213B47CDB1149B44238CBF62"
+                fieldname="Stars"
+                sourcefieldname="5" />
+            </conditions>
+            <actions>
+              <action
+                id="{9A00D97A-E3A8-4011-B519-FEB70E80EA54}"
+                uid="E860A7C5B1F240A49AA04525BE93F069"
+                boost="1.5" />
+            </actions>
+          </rule>
+        </ruleset>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T123028Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -29,7 +29,7 @@ Languages:
               p:after="r[@uid='{2DCADA50-F871-42A6-9D41-8FC7A61A0035}']"
               s:ds="{FBB9CBEF-4511-40F7-B8AA-6B9AB5193E5D}"
               s:id="{FAE0D244-55C1-4F1B-8ED5-590C9F131CEE}"
-              s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;SearchSignature&amp;FieldNames=%7BB2445D5C-348A-4D22-99EA-08BA91EE2B2B%7D&amp;Styles&amp;Scope&amp;PageSize=20&amp;DefaultLanguageFilter&amp;DefaultSortOrder&amp;AutoFireSearchWhenNoCriteriaSet=1&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+              s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;SearchSignature&amp;FieldNames=%7BB2445D5C-348A-4D22-99EA-08BA91EE2B2B%7D&amp;Styles&amp;Scope=%7B53E28446-FBE5-4957-96D3-1ADB976AFADC%7D&amp;PageSize=20&amp;DefaultLanguageFilter&amp;DefaultSortOrder&amp;AutoFireSearchWhenNoCriteriaSet=1&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
               s:ph="/main/column-2-2" />
             <r
               uid="{FBF089CC-009C-4382-97CB-E26267065F2E}"

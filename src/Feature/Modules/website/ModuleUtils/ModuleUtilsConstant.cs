@@ -27,7 +27,7 @@ namespace xTeam.Feature.Modules.ModuleUtils
                 public readonly static ID DownloadCount = new ID("{29FFCF6A-3300-4EEF-BD80-59AA99404D18}");
             }
         }
-        public const string MasterDatabase = "Master";
-        public const string WebDatabase = "Web";
+        public const string MasterDatabase = "master";
+        public const string WebDatabase = "web";
 }
 }
