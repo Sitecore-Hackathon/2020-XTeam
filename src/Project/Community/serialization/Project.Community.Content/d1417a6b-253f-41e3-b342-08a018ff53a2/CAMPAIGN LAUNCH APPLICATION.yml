@@ -2,7 +2,7 @@
 ID: "5d81d81e-ff78-4275-9c4c-f1bfe2396eec"
 Parent: "d1417a6b-253f-41e3-b342-08a018ff53a2"
 Template: "51e67dfc-cca5-4283-9157-50d310732f11"
-Path: /sitecore/content/Community/Marketplace/Home/Module Item Folder/2020/02/29/07/21/Module Item
+Path: /sitecore/content/Community/Marketplace/Home/Module Item Folder/2020/02/29/07/21/CAMPAIGN LAUNCH APPLICATION
 DB: master
 SharedFields:
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
@@ -16,12 +16,29 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20200229T072106Z
+    - ID: "345d5bb4-a027-4a69-ac4f-a145e05474e2"
+      Hint: Git Hub URL
+      Value: |
+        <link linktype="external" url="https://github.com/Sitecore/sitecore-cla" />
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
       Value: "{23175DE7-96CB-4C9E-9D33-49A9845CAD1F}"
+    - ID: "73a766c5-576a-49c3-ba97-43c5c75cb759"
+      Hint: Title
+      Value: CAMPAIGN LAUNCH APPLICATION
     - ID: "9102153d-ec29-4317-a4f2-5d361fe5fb07"
       Hint: Read Me
       Value: |
         <h1 style="color: #24292e; background-color: #ffffff; margin: 0px 0px 16px; padding-bottom: 0.3em; border-bottom: 1px solid #eaecef;">Sitecore-SplitShot</h1>
         <p style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 16px;">When you develop large multilingual website, it becomes more and more complex overtime, new features added every sprint, new languages and country sites are added qarterly, and it takes more time to verify that your current functionality works fine and a sublayout you're changing for Japan website is not going to break the US or some other multilingual site out of 10+ available.</p>
         <p style="color: #24292e; background-color: #ffffff; margin-top: 0px;">Clicking through the 15-20 pages every time you change something? Use this module instead!</p>
+    - ID: "94d22b54-63c5-49b8-ad51-a214b7805418"
+      Hint: Product Line
+      Value: "{43F9EDEF-C45F-42B1-9212-5E004DA0E584}"
+    - ID: "96375f05-4682-479b-9512-4d97c3611f16"
+      Hint: Author
+      Value: Sitecore
+    - ID: "a6ec2225-f000-46a3-8fd0-a3d4812037f9"
+      Hint: Tested Against Sitecore Version
+      Type: Multilist
+      Value: "{7200CB83-8FB5-41FC-80C9-05E6D67DC2C7}"
