@@ -1,0 +1,21 @@
+﻿---
+ID: "c0219af0-03b5-4a70-8473-c76731b42ac3"
+Parent: "a634535c-a1ce-4879-993d-ce8f5cf83fa4"
+Template: "b6740bb0-d4dc-4a82-b2c6-7ad99bd9cc0d"
+Path: /sitecore/content/Community/Marketplace/Presentation/Page Designs/Module Page
+DB: master
+SharedFields:
+- ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
+  Hint: PartialDesigns
+  Value: "{EA9BDC93-1FCF-49F9-B800-39963723CFF8}|{612BF33B-C478-4EB9-A4C4-7B10E0B1C75D}|{26E6741F-5C1D-4768-8DC0-F97C9FBDCAA7}"
+- ID: "7b487159-e180-4846-be49-e196e4c3a2b3"
+  Hint: Page Design Theme
+  Value: "{A7F07AC6-6141-408F-A3D2-D48A3B261CB1}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T205805Z

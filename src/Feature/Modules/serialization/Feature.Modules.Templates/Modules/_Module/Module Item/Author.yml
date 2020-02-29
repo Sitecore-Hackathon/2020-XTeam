@@ -1,16 +1,16 @@
 ﻿---
-ID: "29ffcf6a-3300-4eef-bd80-59aa99404d18"
-Parent: "6821098c-57f9-4157-8dd6-23208b92680c"
+ID: "96375f05-4682-479b-9512-4d97c3611f16"
+Parent: "2a23e94c-f531-4c21-a8d4-c74db4670d54"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Modules/Module Item/Field Section/Download Count
+Path: /sitecore/templates/Feature/Modules/_Module/Module Item/Author
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: Integer
+  Value: "Single-Line Text"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 300
+  Value: 500
 Languages:
 - Language: en
   Versions:
