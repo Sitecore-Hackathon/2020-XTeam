@@ -1,0 +1,22 @@
+﻿---
+ID: "35e7aa73-621e-479b-9c1a-08a41c20681f"
+Parent: "d5a7bd18-5fba-415c-9caf-1e5f6c997751"
+Template: "e24e0789-a058-48bf-abb6-c69c0e60b6b7"
+Path: /sitecore/content/Community/Marketplace/Data/Links/Discover
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T152257Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\pdoran
+    - ID: "dd05144a-bd66-4ea3-956a-4b7104daaba3"
+      Hint: Link
+      Value: |
+        <link linktype="internal" text="Discover" title="Dsicover" querystring="" target="" id="{1C802C0F-69A5-4AF9-A628-4872FBBEB2F8}" />
