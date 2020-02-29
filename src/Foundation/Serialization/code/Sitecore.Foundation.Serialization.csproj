@@ -65,17 +65,25 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.Web.Infrastructure" Version="1.0.0.0" />
-    <PackageReference Include="Rainbow" Version="2.0.5" />
-    <PackageReference Include="Rainbow.Core" Version="2.0.5" />
-    <PackageReference Include="Rainbow.Storage.Sc" Version="2.0.5" />
-    <PackageReference Include="Rainbow.Storage.Yaml" Version="2.0.5" />
+    <PackageReference Include="Rainbow">
+      <Version>2.1.1</Version>
+    </PackageReference>
+    <PackageReference Include="Rainbow.Core">
+      <Version>2.1.1</Version>
+    </PackageReference>
+    <PackageReference Include="Rainbow.Storage.Sc">
+      <Version>2.1.1</Version>
+    </PackageReference>
+    <PackageReference Include="Rainbow.Storage.Yaml">
+      <Version>2.1.1</Version>
+    </PackageReference>
     <PackageReference Include="Sitecore.Kernel" Version="9.3.0" />
-    <PackageReference Include="Unicorn" Version="4.0.7" />
-    <PackageReference Include="Unicorn.Core" Version="4.0.7" />
-    <PackageReference Include="Unicorn.Roles" Version="4.0.7" />
-    <PackageReference Include="Unicorn.Roles.Core" Version="4.0.7" />
-    <PackageReference Include="Unicorn.Users" Version="4.0.7" />
-    <PackageReference Include="Unicorn.Users.Core" Version="4.0.7" />
+    <PackageReference Include="Unicorn">
+      <Version>4.1.2-pre1</Version>
+    </PackageReference>
+    <PackageReference Include="Unicorn.Core">
+      <Version>4.1.2-pre1</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
@@ -114,22 +122,13 @@
     <Content Include="App_Config\Modules\Unicorn\Unicorn.Configs.Default.example" />
     <Content Include="App_Config\Modules\Unicorn\Unicorn.config" />
     <Content Include="App_Config\Modules\Unicorn\Unicorn.AutoPublish.config" />
-    <Content Include="App_Config\Modules\Unicorn\Unicorn.Configs.Default.Roles.config.example" />
-    <Content Include="App_Config\Modules\Unicorn\Unicorn.Configs.Default.Users.config.example" />
     <Content Include="App_Config\Modules\Unicorn\Unicorn.zSharedSecret.config.example" />
-    <None Include="App_Config\Modules\Unicorn\Unicorn.UI.IdentityServer.config" />
+    <Content Include="App_Config\Modules\Unicorn\Unicorn.UI.IdentityServer.config" />
     <Content Include="App_Config\Modules\Unicorn\Unicorn.UI.DeployedContentEditorWarnings.config.disabled" />
     <Content Include="App_Config\Modules\Unicorn\Unicorn.UI.config" />
     <Content Include="App_Config\Modules\Unicorn\Unicorn.Remote.config.disabled" />
     <Content Include="App_Config\Modules\Unicorn\Unicorn.PowerShell.config" />
     <Content Include="App_Config\Modules\Unicorn\Unicorn.Dilithium.config.example" />
-    <Content Include="App_Config\Modules\Unicorn\Unicorn.Roles.DataProvider.config" />
-    <Content Include="App_Config\Modules\Unicorn\Unicorn.Roles.config" />
-    <Content Include="App_Config\Modules\Unicorn\Unicorn.Users.DataProvider.config" />
-    <Content Include="App_Config\Modules\Unicorn\Unicorn.Users.config" />
-    <Content Include="App_Config\Modules\Unicorn\Unicorn.Deployed.config">
-      <SubType>Designer</SubType>
-    </Content>
     <Content Include="App_Config\Include\Foundation\Foundation.Serialization.Source.config" />
     <Content Include="App_Config\Include\Foundation\Foundation.Serialization.Settings.config" />
     <Content Include="App_Config\Modules\Unicorn\Unicorn.zSharedSecret.config" />
