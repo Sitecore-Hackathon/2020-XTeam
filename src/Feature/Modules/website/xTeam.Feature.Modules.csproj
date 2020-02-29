@@ -47,10 +47,20 @@
     <Reference Include="Sitecore.ExperienceForms, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.ExperienceForms.9.3.0\lib\net471\Sitecore.ExperienceForms.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.Kernel, Version=14.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.Kernel.9.3.0\lib\net471\Sitecore.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="sysglobl" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.IO.Compression.FileSystem" />
     <Reference Include="System.Linq" />
     <Reference Include="System.Runtime" />
+    <Reference Include="System.Runtime.Caching" />
     <Reference Include="System.Runtime.InteropServices" />
     <Reference Include="System.Runtime.InteropServices.RuntimeInformation" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
     <Reference Include="System.Threading.Thread" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -75,12 +85,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\Feature\Foundation.Serialization.config" />
+    <Content Include="App_Config\Include\Feature\Feature.Serialization.config" />
     <Content Include="App_Config\Include\xTeam\Sitecore.ContentTagging.OpenCalais.Patch.config" />
+    <Content Include="App_Config\Include\Feature\Feature.Modules.config" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ModuleActions\Events\RemoteSubmitModuleEventHandler.cs" />
     <Compile Include="ModuleActions\ModuleSubmit.cs" />
+    <Compile Include="ModuleActions\Events\RemoteSubmitModuleEvent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

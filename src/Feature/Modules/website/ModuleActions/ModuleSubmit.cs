@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using Sitecore.Events;
 using Sitecore.ExperienceForms.Models;
 using Sitecore.ExperienceForms.Processing;
 using Sitecore.ExperienceForms.Processing.Actions;
@@ -43,8 +44,15 @@ namespace xTeam.Feature.Modules.ModuleActions
         /// </returns>
         protected override bool Execute(string data, FormSubmitContext formSubmitContext)
         {
-            
+            // Raise the local event
+            Event.RaiseEvent("cache:clear");
 
+            // Add some data to the Event Queue, which will be consumed by other instances and then raised as events on those instances.
+            Sitecore.Eventing.EventManager.RaiseEvent<RemoteSubmitModuleEvent>(new RemoteSubmitModuleEvent());
+
+            //Log.Info("RemoteCacheClearHandler - triggered cache:clear and cache:clear:remote", this);
+            Sitecore.Context.ClientPage.ClientResponse.Alert("Module Submitted.");
+            
             return true;
         }
     }

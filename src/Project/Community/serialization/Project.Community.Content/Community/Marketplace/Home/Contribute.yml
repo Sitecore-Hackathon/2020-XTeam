@@ -1,0 +1,47 @@
+﻿---
+ID: "d949455c-2c0e-4dd4-9f39-3a10b114a728"
+Parent: "f962105e-c9ce-44c7-aaab-a0a78466f5ca"
+Template: "453caf74-66c2-4985-84be-3ef6c8c65bec"
+Path: /sitecore/content/Community/Marketplace/Home/Contribute
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{577154DE-EE66-4A8D-9EBC-F5B2B04683D4}"
+              p:before="*"
+              s:ds="{99B96A7D-A8B2-4055-BA42-FDFE9053690E}"
+              s:id="{6B5B0FE6-5C85-4487-BA7E-F8C2ECC186A8}"
+              s:par=""
+              s:ph="/main/sitecoreFormsWrapper-1" />
+            <r
+              uid="{2B1D4C51-5B9D-48AD-A5C5-F4C50D566F29}"
+              p:after="*[1=2]"
+              s:id="{6AB4EE29-CB78-4DCE-A316-3E6C3D5513F5}"
+              s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+              s:ph="main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T061110Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Contribute
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\pdoran
+    - ID: "68f8c50f-6eca-44a1-b630-a2960125e61b"
+      Hint: Title
+      Value: Contribute
