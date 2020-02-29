@@ -1,8 +1,8 @@
 ﻿---
-ID: "0abc5213-530c-408e-896b-8a9b80fe62b1"
+ID: "da01ebc9-65ef-4d6a-bbe4-e1b588610b40"
 Parent: "b5e9b33e-095f-4901-8435-53b12fb440b1"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Data Exchange/Providers/GitHub/Data Access/Value Accessors/GitHub ReadMe Value Accessor
+Path: /sitecore/templates/Data Exchange/Providers/GitHub/Data Access/Value Accessors/GitHub Trending Views Value Accessor
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
@@ -16,7 +16,7 @@ SharedFields:
     {505BEA68-33CE-4A82-9437-4C6CAFBFB1C5}
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
-  Value: "{99FFB55A-6C4B-4355-9327-6B584C04ABE0}"
+  Value: "{92D3AD09-32A4-4C1E-8632-C01BD6A8A099}"
 Languages:
 - Language: en
   Versions:

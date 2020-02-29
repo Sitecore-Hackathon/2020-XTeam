@@ -8,7 +8,10 @@ SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
   Type: TreelistEx
-  Value: "{0ABC5213-530C-408E-896B-8A9B80FE62B1}"
+  Value: |
+    {0ABC5213-530C-408E-896B-8A9B80FE62B1}
+    {97AD989B-522B-4E19-97FA-6AA209AFD15B}
+    {DA01EBC9-65EF-4D6A-BBE4-E1B588610B40}
 - ID: "3c7f78cc-0c5c-4076-80ef-9a49fda5ff96"
   Hint: ConverterType
   Value: Sitecore.DataExchange.Converters.DataAccess.ValueAccessors.ChildBasedValueAccessorSetConverter, Sitecore.DataExchange

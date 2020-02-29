@@ -1,18 +1,13 @@
-﻿using Sitecore.DataExchange.DataAccess;
-using System;
+﻿using Octokit;
+using System.Threading.Tasks;
 
 namespace xTeam.Foundation.Integration.GitHub.Readers
 {
-    public class GitHubReadMeReader : IValueReader
+    public class GitHubReadMeReader : AbstractGitHubReader
     {
-        public virtual ReadResult Read(object source, DataAccessContext context)
+        public async override Task<string> GetGitHubValue(GitHubClient client, RepoModel repo)
         {
-            var repoModel = source as RepoModel;
-            if (repoModel == null)
-            {
-                return ReadResult.NegativeResult(DateTime.Now);
-            }
-            return ReadResult.PositiveResult(repoModel.Name, DateTime.Now);
+            return await client.Repository.Content.GetReadmeHtml(repo.Owner, repo.Name);
         }
     }
 }

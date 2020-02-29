@@ -7,12 +7,12 @@ using xTeam.Foundation.Integration.GitHub.Readers;
 
 namespace xTeam.Foundation.Integration.GitHub.Accessors
 {
-    [SupportedIds(ReadMeValueAccessorTemplateId)]
-    public class GitHubReadMeAccessorConverter : ValueAccessorConverter
+    [SupportedIds(TrendingValueAccessorTemplateId)]
+    public class GitHubTrendingViewsAccessorConverter : ValueAccessorConverter
     {
-        public const string ReadMeValueAccessorTemplateId = "{0ABC5213-530C-408E-896B-8A9B80FE62B1}";
+        public const string TrendingValueAccessorTemplateId = "{DA01EBC9-65EF-4D6A-BBE4-E1B588610B40}";
 
-        public GitHubReadMeAccessorConverter(IItemModelRepository repository) : base(repository)
+        public GitHubTrendingViewsAccessorConverter(IItemModelRepository repository) : base(repository)
         {
         }
 
@@ -21,7 +21,7 @@ namespace xTeam.Foundation.Integration.GitHub.Accessors
             var valueReader = base.GetValueReader(source);
             if (valueReader == null)
             {
-                valueReader = new GitHubReadMeReader();
+                valueReader = new GitHubViewsCountReader();
             }
             return valueReader;
         }
