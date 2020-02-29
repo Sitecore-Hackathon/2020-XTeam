@@ -87,7 +87,7 @@ namespace xTeam.Feature.Modules.ModuleUtils
             Sitecore.Publishing.Publisher publisher = new Sitecore.Publishing.Publisher(publishOptions);
 
             publisher.Options.RootItem = item;
-            publisher.Options.Mode = Sitecore.Publishing.PublishMode.Smart;
+            publisher.Options.Mode = Sitecore.Publishing.PublishMode.Full;
 
             publisher.Publish();
         }
