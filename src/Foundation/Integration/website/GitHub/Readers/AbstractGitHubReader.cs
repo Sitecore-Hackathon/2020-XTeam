@@ -19,6 +19,8 @@ namespace xTeam.Foundation.Integration.GitHub.Readers
             try
             {
                 value = Task.Run(() => GetGitHubValue(client, repoModel)).Result;
+                if (string.IsNullOrEmpty(value))
+                    return ReadResult.NegativeResult(DateTime.Now);
             }
             catch (Exception ex) {                
                 return ReadResult.NegativeResult(DateTime.Now);
