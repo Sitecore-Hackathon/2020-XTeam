@@ -14,7 +14,7 @@ SharedFields:
   Value: "formsRoot=%7B44F38A05-0443-4FF7-9CDE-E8C6E3256D2E%7D"
 - ID: "85f47095-7e58-449c-9773-b0aeb925ad1f"
   Hint: Indexes
-  Value: 
+  Value: web/*=sxa_web_index
 - ID: "8e0dd914-9afb-4d45-bf8b-7ff5d6e5337e"
   Hint: HostName
   Value: *
