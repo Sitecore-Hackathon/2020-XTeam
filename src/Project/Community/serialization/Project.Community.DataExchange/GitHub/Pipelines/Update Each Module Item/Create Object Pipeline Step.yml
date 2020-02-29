@@ -1,0 +1,37 @@
+﻿---
+ID: "5b6fe0ca-ab20-4f0b-b92a-0975dd1cd94b"
+Parent: "a6b6df4e-ce07-4c3c-b4c1-203fe497cdaf"
+Template: "554089b5-9c38-4e81-8a63-eb2bac863890"
+Path: /sitecore/system/Data Exchange/GitHub/Pipelines/Update Each Module Item/Create Object Pipeline Step
+DB: master
+SharedFields:
+- ID: "11a386cd-7fb2-4bb1-b2f4-8ab8b973eae7"
+  Hint: TypeName
+  Value: xTeam.Foundation.Integration.GitHub.RepoModel, xTeam.Foundation.Integration
+- ID: "2e08772e-38a0-41af-b2ae-93107b22eebb"
+  Hint: SourceObjectForConstructorParametersLocation
+  Value: "{EC64487D-E7E6-40B0-A86C-40C74B95E04E}"
+- ID: "49e8ef32-bbf6-421b-9044-1df0bab24447"
+  Hint: ValueAccessorSetForConstructorParameters
+  Value: "{57415E56-4A86-4AAE-8EC8-3AF2619B6D1C}"
+- ID: "a83a2eb2-bfa1-4d3f-9f17-0cc6c9a91c42"
+  Hint: ProcessorType
+  Value: Sitecore.DataExchange.Processors.PipelineSteps.CreateObjectPipelineStepProcessor, Sitecore.DataExchange
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "f344f90e-3d84-4bc3-8602-ea030eefd6a9"
+  Hint: CreatedObjectLocation
+  Value: "{17DF1143-A38D-4C77-A933-E66B5ED21E9A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T151835Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

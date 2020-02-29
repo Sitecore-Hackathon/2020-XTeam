@@ -1,0 +1,18 @@
+﻿---
+ID: "baabdf8e-8a08-4883-ba98-9d7bb3e725dc"
+Parent: "af348719-763f-4b53-92eb-dd4547cb5981"
+Template: "da01ebc9-65ef-4d6a-bbe4-e1b588610b40"
+Path: /sitecore/system/Data Exchange/GitHub/Data Access/Value Accessor Sets/Providers/GitHub/GitHub Value Accessor Set/GitHub Trending Views
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T203836Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

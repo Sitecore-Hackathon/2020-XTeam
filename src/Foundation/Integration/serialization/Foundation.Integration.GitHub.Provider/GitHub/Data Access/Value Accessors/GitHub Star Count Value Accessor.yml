@@ -1,0 +1,31 @@
+﻿---
+ID: "97ad989b-522b-4e19-97fa-6aa209afd15b"
+Parent: "b5e9b33e-095f-4901-8435-53b12fb440b1"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Data Exchange/Providers/GitHub/Data Access/Value Accessors/GitHub Star Count Value Accessor
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/32x32/radio_button_selected.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {5C8862A6-7B47-4354-92F6-11EB080E6D0C}
+    {505BEA68-33CE-4A82-9437-4C6CAFBFB1C5}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{5F75977E-EB98-498D-B771-690A73B9B81C}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170902T165516Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -2,7 +2,7 @@
 ID: "99ffb55a-6c4b-4355-9327-6b584c04abe0"
 Parent: "0abc5213-530c-408e-896b-8a9b80fe62b1"
 Template: "0abc5213-530c-408e-896b-8a9b80fe62b1"
-Path: /sitecore/templates/Data Exchange/Providers/GitHub/Data Access/Value Accessors/GitHub ReadMe Value Accessor/__Standard Values
+Path: /sitecore/templates/Data Exchange/Providers/GitHub/Data Access/Value Accessors/GitHub Read Me Value Accessor/__Standard Values
 DB: master
 SharedFields:
 - ID: "3c7f78cc-0c5c-4076-80ef-9a49fda5ff96"

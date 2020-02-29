@@ -1,0 +1,22 @@
+﻿---
+ID: "5f75977e-eb98-498d-b771-690a73b9b81c"
+Parent: "97ad989b-522b-4e19-97fa-6aa209afd15b"
+Template: "97ad989b-522b-4e19-97fa-6aa209afd15b"
+Path: /sitecore/templates/Data Exchange/Providers/GitHub/Data Access/Value Accessors/GitHub Star Count Value Accessor/__Standard Values
+DB: master
+SharedFields:
+- ID: "3c7f78cc-0c5c-4076-80ef-9a49fda5ff96"
+  Hint: ConverterType
+  Value: xTeam.Foundation.Integration.GitHub.Accessors.GitHubStarCountAccessorConverter, xTeam.Foundation.Integration
+- ID: "506bad49-3da6-474c-acb5-7bcb509bfbd7"
+  Hint: Enabled
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170902T165816Z
