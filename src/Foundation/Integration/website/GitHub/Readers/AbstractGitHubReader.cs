@@ -1,6 +1,7 @@
 ﻿using Octokit;
 using Sitecore.DataExchange.DataAccess;
 using System;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace xTeam.Foundation.Integration.GitHub.Readers
@@ -22,8 +23,15 @@ namespace xTeam.Foundation.Integration.GitHub.Readers
                 if (string.IsNullOrEmpty(value))
                     return ReadResult.NegativeResult(DateTime.Now);
             }
-            catch (Exception ex) {                
+            catch (Exception ex)
+            {
                 return ReadResult.NegativeResult(DateTime.Now);
+            }
+            finally {
+                // Sleep since API has a governor
+                var sleepInSeconds = 61; // Sitecore.Configuration.Settings.GetIntSetting("GitHub.Anonymous.Sleep.InSeconds", 60);
+                var sleepInMiliseconds = sleepInSeconds * 1000;
+                Thread.Sleep(sleepInMiliseconds);
             }
 
             return ReadResult.PositiveResult(value, DateTime.Now);

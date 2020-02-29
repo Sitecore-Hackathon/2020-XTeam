@@ -10,7 +10,7 @@ namespace xTeam.Foundation.Integration.GitHub
     public class GitHubEndpointConverter : BaseEndpointConverter
     {
         public const string EndpointTemplateId = "{C1938C4F-0FBC-490B-9A34-E000C512AD89}";
-        public const string AppName = "sc-community-marketplace";
+        public const string AppName = "sc-marketplace-community";
 
         public GitHubEndpointConverter(IItemModelRepository repository) : base(repository)
         {
