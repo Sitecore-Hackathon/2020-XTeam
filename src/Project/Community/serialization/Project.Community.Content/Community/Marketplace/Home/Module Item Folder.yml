@@ -1,0 +1,23 @@
+﻿---
+ID: "159f1fa5-54ab-4fdc-876f-e0c427e0a98d"
+Parent: "f962105e-c9ce-44c7-aaab-a0a78466f5ca"
+Template: "8d7b04db-f186-44ca-ab11-24db1bc2a864"
+Path: /sitecore/content/Community/Marketplace/Home/Module Item Folder
+DB: master
+SharedFields:
+- ID: "a0cb3965-8884-4c7a-8815-b6b2e5ced162"
+  Hint: __Editors
+  Type: TreelistEx
+  Value: "{59F53BBB-D1F5-4E38-8EBA-0D73109BB59B}"
+- ID: "d312103c-b36c-4ca5-864a-c85f9abda503"
+  Hint: __Is Bucket
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T071651Z

@@ -1,0 +1,14 @@
+﻿---
+ID: "ec7d1116-3205-49b6-9ec4-4dad9602124c"
+Parent: "159f1fa5-54ab-4fdc-876f-e0c427e0a98d"
+Template: "adb6ca4f-03ef-4f47-b9ac-9ce2ba53ff97"
+Path: /sitecore/content/Community/Marketplace/Home/Module Item Folder/2020
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T072655Z
