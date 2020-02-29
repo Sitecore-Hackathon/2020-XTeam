@@ -1,0 +1,25 @@
+﻿---
+ID: "e47140a5-97bf-4d7e-a101-2758d3ac765e"
+Parent: "02798205-795c-45a5-953c-fb8ef2de68fc"
+Template: "790c0f2c-1621-4604-a6c6-72b9f8ae830d"
+Path: /sitecore/content/Community/Marketplace/Data/Search/Dropdown Filter/Product Line
+DB: master
+SharedFields:
+- ID: "38d3de1f-f23c-4587-ae30-06ec5ed73e82"
+  Hint: Facet
+  Value: "{DF65C427-1F39-4680-A82F-ED211DC71EC8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T192545Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "ae2fb54e-10cb-4dec-bf62-dfeb17d3cc7e"
+      Hint: Title
+      Value: Product Line
