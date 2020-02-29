@@ -5,17 +5,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Examples.DataExchange.Providers.FileSystem
+namespace xTeam.Foundation.Integration.GitHub
 {
     public static class EndpointExtensions
     {
-        public static TextFileSettings GetTextFileSettings(this Endpoint endpoint)
+        public static GitHubSettings GetGitHubSettings(this Endpoint endpoint)
         {
-            return endpoint.GetPlugin<TextFileSettings>();
+            return endpoint.GetPlugin<GitHubSettings>();
         }
-        public static bool HasTextFileSettings(this Endpoint endpoint)
+        public static bool HasGitHubSettings(this Endpoint endpoint)
         {
-            return (GetTextFileSettings(endpoint) != null);
+            return (GetGitHubSettings(endpoint) != null);
         }
     }
 }

@@ -44,6 +44,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Octokit, Version=0.42.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Octokit.0.42.0\lib\net46\Octokit.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.DataExchange, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.DataExchange.4.0.0\lib\net471\Sitecore.DataExchange.dll</HintPath>
     </Reference>
@@ -54,6 +57,7 @@
       <HintPath>..\..\..\..\packages\Sitecore.Services.Core.9.3.0\lib\net471\Sitecore.Services.Core.dll</HintPath>
     </Reference>
     <Reference Include="System.Linq" />
+    <Reference Include="System.Net.Http" />
     <Reference Include="System.Runtime" />
     <Reference Include="System.Runtime.InteropServices" />
     <Reference Include="System.Runtime.InteropServices.RuntimeInformation" />
@@ -81,17 +85,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Config\Include\Foundation\Foundation.Integration.Serialization.config" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GitHub\ArrayValueAccessorConverter.cs" />
+    <Compile Include="GitHub\Accessors\GitHubReadMeAccessorConverter.cs" />
     <Compile Include="GitHub\EndpointExtensions.cs" />
+    <Compile Include="GitHub\Readers\AbstractGitHubReader.cs" />
+    <Compile Include="GitHub\Readers\GitHubReadMeReader.cs" />
     <Compile Include="GitHub\ReadTextFileStepConverter.cs" />
     <Compile Include="GitHub\ReadTextFileStepProcessor.cs" />
-    <Compile Include="GitHub\TextFileEndpointConverter.cs" />
+    <Compile Include="GitHub\RepoModel.cs" />
+    <Compile Include="GitHub\Test.aspx.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GitHub\Test.aspx.designer.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GitHub\GitHubEndpointConverter.cs" />
     <Compile Include="GitHub\TextFileEndpointTroubleshooter.cs" />
-    <Compile Include="GitHub\TextFileSettings.cs" />
+    <Compile Include="GitHub\GitHubSettings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -102,6 +117,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="GitHub\Test.aspx" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
