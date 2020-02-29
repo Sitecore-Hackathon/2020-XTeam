@@ -1,20 +1,23 @@
 ﻿---
-ID: "ae9309a9-0cca-4138-b3eb-0da3343f3bbe"
-Parent: "ca58792f-cd68-4a49-af8e-93ab0c365acf"
+ID: "1e64a125-a0cb-447c-ae90-6ffe5970ea89"
+Parent: "b2445d5c-348a-4d22-99ea-08ba91ee2b2b"
 Template: "fcd285da-9ab2-4c8d-b185-5a7487a9ba1b"
-Path: /sitecore/content/Community/Marketplace/Presentation/Rendering Variants/Search Results/horizontal/Title/__Display Name
+Path: /sitecore/content/Community/Marketplace/Presentation/Rendering Variants/Search Results/horizontal/Views
 DB: master
 BranchID: "0d360bbd-4fae-4863-88b9-ae5be82be6f0"
 SharedFields:
 - ID: "4753764c-c05a-4623-841b-97f85135241c"
   Hint: FieldName
-  Value: Title
+  Value: Download Count
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
 - ID: "dcb05e5e-7151-4226-a3b0-108c5e2f05b5"
   Hint: IsLink
-  Value: 1
+  Value: 
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
-  Value: "{AE9E81D3-7455-4D7D-96AF-EF9B7D638946}"
+  Value: "{95FB9A13-F622-4943-972C-1AF62B4509AD}"
 Languages:
 - Language: en
   Versions:
@@ -27,3 +30,6 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\Admin
+    - ID: "fd5230d8-e68d-4e17-9d85-ea676f27ac3a"
+      Hint: Prefix
+      Value: "Views: "

@@ -1,14 +1,17 @@
 ﻿---
-ID: "ae9309a9-0cca-4138-b3eb-0da3343f3bbe"
-Parent: "ca58792f-cd68-4a49-af8e-93ab0c365acf"
+ID: "91e6efe1-0034-43f4-9447-6345c539dc09"
+Parent: "3d8abc7f-680d-432f-85aa-3d50e03d511d"
 Template: "fcd285da-9ab2-4c8d-b185-5a7487a9ba1b"
-Path: /sitecore/content/Community/Marketplace/Presentation/Rendering Variants/Search Results/horizontal/Title/__Display Name
+Path: /sitecore/content/Community/Marketplace/Presentation/Rendering Variants/Search Results/horizontal/Star/Stars
 DB: master
 BranchID: "0d360bbd-4fae-4863-88b9-ae5be82be6f0"
 SharedFields:
 - ID: "4753764c-c05a-4623-841b-97f85135241c"
   Hint: FieldName
-  Value: Title
+  Value: Stars
+- ID: "db805bdc-8eec-4238-b174-2427b6f1f077"
+  Hint: Tag
+  Value: "{E8E2C26D-2F96-4A9C-9C17-D095E6CE46CC}"
 - ID: "dcb05e5e-7151-4226-a3b0-108c5e2f05b5"
   Hint: IsLink
   Value: 1
