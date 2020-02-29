@@ -1,0 +1,29 @@
+﻿---
+ID: "87005c56-7dbb-46ad-a47a-b8a2a73c2705"
+Parent: "290590c7-e626-4d8f-8101-717964c97776"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Data Exchange/Providers/GitHub/Data Access/Value Accessor Sets/GitHub Value Accessor Set
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/radio_button_group.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{0EC4D8A7-8E8D-4A20-9F1C-FEB7CC07893B}"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{EC25D810-C453-44BA-8755-DCE6BAB92405}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170902T215416Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

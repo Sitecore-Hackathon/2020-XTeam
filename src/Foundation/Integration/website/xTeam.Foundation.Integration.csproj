@@ -94,8 +94,6 @@
     <Compile Include="GitHub\EndpointExtensions.cs" />
     <Compile Include="GitHub\Readers\AbstractGitHubReader.cs" />
     <Compile Include="GitHub\Readers\GitHubReadMeReader.cs" />
-    <Compile Include="GitHub\ReadTextFileStepConverter.cs" />
-    <Compile Include="GitHub\ReadTextFileStepProcessor.cs" />
     <Compile Include="GitHub\RepoModel.cs" />
     <Compile Include="GitHub\Test.aspx.cs">
       <DependentUpon>Test.aspx</DependentUpon>

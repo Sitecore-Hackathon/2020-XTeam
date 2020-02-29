@@ -1,0 +1,23 @@
+﻿---
+ID: "61c07055-86ee-432e-88f4-520cd0e2ac35"
+Parent: "74b94086-6574-4c16-91d5-a4139b4c662a"
+Template: "d6126448-e751-4a7e-ad40-7a56e20c1369"
+Path: /sitecore/system/Data Exchange/GitHub/Tenant Settings/Providers
+DB: master
+BranchID: "0d21226f-7b04-4ff2-9230-b55245cf6fe7"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{3A5F251D-8DAA-4F7A-8E44-6E127CAE4E0E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T120047Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous

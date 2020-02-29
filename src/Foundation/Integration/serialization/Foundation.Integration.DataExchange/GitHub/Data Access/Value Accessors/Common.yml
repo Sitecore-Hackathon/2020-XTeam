@@ -1,0 +1,23 @@
+﻿---
+ID: "58e6a09b-cd1e-462d-95b7-a60c8fe1551b"
+Parent: "9a7d6d98-db4b-4f2e-82f2-aa0ad1a48d09"
+Template: "4fc8aeda-c181-471e-bb9a-5ff6407fc99c"
+Path: /sitecore/system/Data Exchange/GitHub/Data Access/Value Accessors/Common
+DB: master
+BranchID: "0d21226f-7b04-4ff2-9230-b55245cf6fe7"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{122919C0-0278-469E-96B5-D3B0F02BF6B8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T120046Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
