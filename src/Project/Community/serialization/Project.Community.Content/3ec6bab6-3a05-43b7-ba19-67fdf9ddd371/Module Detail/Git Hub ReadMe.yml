@@ -1,13 +1,16 @@
 ﻿---
-ID: "e8aa325d-2230-4309-af8a-ed4d5299f4e7"
-Parent: "3d8abc7f-680d-432f-85aa-3d50e03d511d"
+ID: "f0911c14-545b-4b85-a101-f9400016143d"
+Parent: "7ebae389-c069-4004-80df-3936f6326e8b"
 Template: "7c02e9f5-54b5-4ef4-bd10-f4c5d448a48c"
-Path: /sitecore/content/Community/Marketplace/Presentation/Rendering Variants/Search Results/horizontal/Star/Icon
+Path: /sitecore/content/Community/Marketplace/Presentation/Rendering Variants/Page Content/Module Detail/Git Hub ReadMe
 DB: master
 SharedFields:
 - ID: "1aa68c0b-eb67-4575-9ca8-1689c2aff091"
   Hint: Tag
-  Value: "{E8E2C26D-2F96-4A9C-9C17-D095E6CE46CC}"
+  Value: "{6E84D69B-7F26-4B19-906D-469C3354EBB0}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
 Languages:
 - Language: en
   Versions:
@@ -15,11 +18,10 @@ Languages:
     Fields:
     - ID: "07211f80-7ffc-4df4-a4de-c8956f391850"
       Hint: Text
-      Value: |
-        <img src="/-/media/Project/Community/shared/star.png"/>
+      Value: Git Hub ReadMe
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200229T225408Z
+      Value: 20200229T233615Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

@@ -1,0 +1,31 @@
+﻿---
+ID: "f1b9ab0f-8139-4441-bccf-96034f6d9aa5"
+Parent: "7ebae389-c069-4004-80df-3936f6326e8b"
+Template: "fcd285da-9ab2-4c8d-b185-5a7487a9ba1b"
+Path: /sitecore/content/Community/Marketplace/Presentation/Rendering Variants/Page Content/Module Detail/Title
+DB: master
+SharedFields:
+- ID: "4753764c-c05a-4623-841b-97f85135241c"
+  Hint: FieldName
+  Value: Title
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+- ID: "db805bdc-8eec-4238-b174-2427b6f1f077"
+  Hint: Tag
+  Value: "{7FF0B09B-8AAA-469B-8A56-4743E61705EC}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "15867cb6-e128-4d78-9d4f-739e5963dfc4"
+      Hint: Suffix
+      Value: <br />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T233232Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -8,6 +8,9 @@ SharedFields:
 - ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
   Hint: Page Design
   Value: "{C0219AF0-03B5-4A70-8473-C76731B42AC3}"
+- ID: "97fb669d-5b8e-4829-9a24-06418c315d73"
+  Hint: SxaTags
+  Value: "{BA42DF0E-D17E-4F14-B590-3555230E0958}|{CA17977A-7708-4858-8B55-1A6E73FF0678}|{F491F8B1-5A58-4E8B-8721-D3E8CFAFB5B7}|{13BB9095-6AD1-4349-945C-D6FCF2953F4E}|{A3F9D63A-5010-43EC-9F7E-47B4D65AB0A8}|{45E1F2E7-70D8-4DDC-9A78-5BF2223AD244}"
 Languages:
 - Language: en
   Versions:
@@ -32,36 +35,6 @@ Languages:
     - ID: "68f8c50f-6eca-44a1-b630-a2960125e61b"
       Hint: Title
       Value: ANALYTICS DATABASE MANAGER (ADM)
-    - ID: "9102153d-ec29-4317-a4f2-5d361fe5fb07"
-      Hint: Read Me
-      Value: |
-        <div class="documentTitle" style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px 0px 10px; border: 0px;">ANALYTICS DATABASE MANAGER 4.2.0 DOCUMENTATION</div>
-        <div class="documentText" style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">
-        <h2 style="color: #404040; background: transparent; margin: 0px; padding: 0px 0px 8px; border: 0px;">INSTALLING THE MODULE</h2>
-        <p style="background: transparent; margin: 0px; padding: 0px; border: 0px;">To install the module, the following actions must be performed:</p>
-        <p style="background: transparent; margin: 0px; padding: 0px; border: 0px;">&nbsp;</p>
-        <ul style="background: transparent; margin: 0px; padding: 0px; border: 0px; list-style-type: none; list-style-image: initial;">
-            <li style="background: transparent; margin: 0px; padding: 0px; border: 0px; list-style-type: disc; list-style-image: initial;">1.Download ADM 4.2.0.zip file and unzip it.</li>
-            <li style="background: transparent; margin: 0px; padding: 0px; border: 0px; list-style-type: disc; list-style-image: initial;">2. Deploy the Data\ADM.Tasks.dacpac to your SQL server.</li>
-            <li style="background: transparent; margin: 0px; padding: 0px; border: 0px; list-style-type: disc; list-style-image: initial;">3. Locate the xConnect instance defined in the xconnect.collection connection string on the CM instance. It will host the ADM on xConnect side.</li>
-            <li style="background: transparent; margin: 0px; padding: 0px; border: 0px; list-style-type: disc; list-style-image: initial;">4. For the deployed database add a connection string with adm.pool name in the xconnect\App_Config\ConnectionStrings.config file.</li>
-            <li style="background: transparent; margin: 0px; padding: 0px; border: 0px; list-style-type: disc; list-style-image: initial;">5. Extract the content of xConnect folder to this instance.</li>
-            <li style="background: transparent; margin: 0px; padding: 0px; border: 0px; list-style-type: disc; list-style-image: initial;">6. Install Sitecore\Analytics Database Manager 4.2.0 rev. 191122.zip on your CM server using Installation Wizard.</li>
-        </ul>
-        <p style="background: transparent; margin: 0px; padding: 0px; border: 0px;">&nbsp;</p>
-        <p style="background: transparent; margin: 0px; padding: 0px; border: 0px;">&nbsp;</p>
-        <h2 style="color: #404040; background: transparent; margin: 0px; padding: 0px 0px 8px; border: 0px;">UPGRADING THE MODULE FROM 4.1.0</h2>
-        <p style="background: transparent; margin: 0px; padding: 0px; border: 0px;">To upgrade the module, the following actions must be performed:</p>
-        <p style="background: transparent; margin: 0px; padding: 0px; border: 0px;">&nbsp;</p>
-        <ul style="background: transparent; margin: 0px; padding: 0px; border: 0px; list-style-type: none; list-style-image: initial;">
-            <li style="background: transparent; margin: 0px; padding: 0px; border: 0px; list-style-type: disc; list-style-image: initial;">1. Remove all the configuration files under App_Data\Config\Sitecore\ADM folder of the xConnect instance which has ADM installed.</li>
-            <li style="background: transparent; margin: 0px; padding: 0px; border: 0px; list-style-type: disc; list-style-image: initial;">2. Drop the existing adm.pool database.</li>
-            <li style="background: transparent; margin: 0px; padding: 0px; border: 0px; list-style-type: disc; list-style-image: initial;">3. Download ADM 4.2.0.zip file and unzip it.</li>
-            <li style="background: transparent; margin: 0px; padding: 0px; border: 0px; list-style-type: disc; list-style-image: initial;">4. Deploy the Data\ADM.Tasks.dacpac to your SQL server with the same name as dropped one.</li>
-            <li style="background: transparent; margin: 0px; padding: 0px; border: 0px; list-style-type: disc; list-style-image: initial;">5. Extract the content of xConnect folder to your xConnect collection service root folder defined in the xconnect.collection connection string on CM instance.</li>
-            <li style="background: transparent; margin: 0px; padding: 0px; border: 0px; list-style-type: disc; list-style-image: initial;">6. Install Sitecore\Analytics Database Manager 4.2.0 rev. 191122.zip on your CM server using Installation Wizard.</li>
-        </ul>
-        </div>
     - ID: "94d22b54-63c5-49b8-ad51-a214b7805418"
       Hint: Product Line
       Value: "{7AC73065-89C3-4542-ACE4-7F4F88F5693A}"
