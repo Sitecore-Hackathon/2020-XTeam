@@ -94,6 +94,7 @@
     <Compile Include="ModuleActions\Events\RemoteSubmitModuleEventHandler.cs" />
     <Compile Include="ModuleActions\ModuleSubmit.cs" />
     <Compile Include="ModuleActions\Events\RemoteSubmitModuleEvent.cs" />
+    <Compile Include="ModuleActions\Pipelines\Initialize\RemoteSubmitModuleEventHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
