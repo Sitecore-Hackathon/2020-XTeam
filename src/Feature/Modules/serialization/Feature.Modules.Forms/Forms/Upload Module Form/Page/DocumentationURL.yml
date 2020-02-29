@@ -5,6 +5,9 @@ Template: "0908030b-4564-42ea-a6fa-c7a5a2d921a8"
 Path: /sitecore/Forms/Upload Module Form/Page/DocumentationURL
 DB: master
 SharedFields:
+- ID: "467c22b4-b1a2-4620-b8bb-74c2d8b369fc"
+  Hint: Label Css Class
+  Value: "sitecore-form"
 - ID: "71061c01-a495-4bf3-a52c-d378346bfae2"
   Hint: Max Length
   Value: 1024
@@ -12,6 +15,9 @@ SharedFields:
   Hint: Conditions
   Value: |
     {"fieldConditions":[]}
+- ID: "7abaa3f6-6ec0-4b65-a463-7919bfae55aa"
+  Hint: Css Class
+  Value: "sitecore-form"
 - ID: "84ece662-5034-40cb-9c60-744db64bb294"
   Hint: Field Key
   Value: 9578C6426AF9416594A10315C60DCF23
