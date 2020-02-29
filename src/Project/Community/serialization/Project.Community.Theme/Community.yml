@@ -1,0 +1,14 @@
+﻿---
+ID: "792d835c-f7c1-4e4c-9ec0-a80e10b54af9"
+Parent: "3ce9a090-fb9b-42be-b593-f39bfcb1de2b"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Themes/Community
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T052142Z
