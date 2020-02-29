@@ -1,0 +1,18 @@
+﻿---
+ID: "a7f69037-e6c1-4879-b3ae-b720af9d783a"
+Parent: "75d679f4-9ef2-4bc7-b75f-4eb5c4d4d356"
+Template: "68c00cb0-320b-4324-903a-f6ad56a2a105"
+Path: /sitecore/content/Community/Marketplace/Data/Accordions
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T052445Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

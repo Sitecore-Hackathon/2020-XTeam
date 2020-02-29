@@ -1,0 +1,29 @@
+﻿---
+ID: "ce7bc286-eb5d-4679-9e6e-e322d5682f59"
+Parent: "449a9d3d-cc5a-4ad2-bf48-e74876bcd460"
+Template: "e8e8c94f-4248-43c3-a79f-99fbb49d78e6"
+Path: /sitecore/content/Community/Marketplace/Media
+DB: master
+BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
+SharedFields:
+- ID: "de8257d9-43aa-4eff-a2f4-2e9fbbd20e79"
+  Hint: AdditionalChildren
+  Type: Treelist
+  Value: |
+    {5131FC6B-D560-4A68-98BA-C543305F2227}
+    {BA11FA54-D90F-4607-BF8F-40F5307D6BB7}
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{E2FF4516-4407-4173-8ADD-704761C15B74}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T052426Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,53 @@
+﻿---
+ID: "5992b780-1838-4c7c-80d5-be07dc158082"
+Parent: "449a9d3d-cc5a-4ad2-bf48-e74876bcd460"
+Template: "ad3fd350-ae59-4609-8499-fce6da36941a"
+Path: /sitecore/content/Community/Marketplace/Settings
+DB: master
+BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {11F57D7B-CBB2-4647-B98C-71457564BA4F}
+    {0D792404-79AA-483D-BB0C-50785F2E295B}
+    {F86FE270-00A4-492F-BFAF-5BF27E40CE13}
+    {DC66D5DA-3216-48E6-AE78-BAC8445B6A46}
+    {20EF5E69-B366-4E9E-960B-E451B24DBD46}
+    {5C76AD53-96CD-4B96-9690-DD9AF2650171}
+    {44936C95-BCA9-4FB3-9D98-2066A5FBBB4D}
+    {5A6BF1D1-836B-425A-A6E6-32CEAA8FF3A5}
+    {B14BAB5B-8965-466B-886B-1F93175BCAB3}
+    {041C1F9F-99A4-4EE6-8308-985499F91032}
+- ID: "ad84cc6b-32ef-49d8-9326-916976cb2520"
+  Hint: Grid Mapping
+  Value: "%7bFE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3%7d%3d%257BFDFEE3CD-14DA-4485-B311-79F21BDE952D%257D"
+- ID: "af332c24-fe17-41e7-8caf-8e64c588fe72"
+  Hint: EditingTheme
+  Value: "{2C4F6537-55A2-45FB-A2D8-957A68C4FDFD}"
+- ID: "beeede03-ab13-4558-96f9-c3e8957b46f8"
+  Hint: Themes
+  Type: Treelist
+  Value: "{6BC14DF7-8DFB-4978-9E59-BC7069DF296B}"
+- ID: "e81e1f9e-8b87-495b-9cb7-84a2a23133be"
+  Hint: MediaLibrary
+  Value: "{5131FC6B-D560-4A68-98BA-C543305F2227}"
+- ID: "e8881464-38af-4655-be4a-ee10586578a2"
+  Hint: Templates
+  Value: "{8BEC32BA-2C52-450B-9F57-09C6CB9A0D09}"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{3E739E69-859C-4694-8D14-2BA6CA779CC6}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T052426Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

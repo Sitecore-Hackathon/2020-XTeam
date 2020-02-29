@@ -1,0 +1,14 @@
+﻿---
+ID: "0aa10b59-9a01-4bd6-8781-b0bf43d72b8d"
+Parent: "b533e93a-4195-454f-ae2a-3dddbbe8231e"
+Template: "0339bac0-78c1-43c1-b930-f8c26a5fdf80"
+Path: /sitecore/content/Community/Marketplace/Presentation/Placeholder Settings
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T052436Z
