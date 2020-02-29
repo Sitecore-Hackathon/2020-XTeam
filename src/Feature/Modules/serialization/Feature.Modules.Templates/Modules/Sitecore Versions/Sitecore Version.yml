@@ -1,0 +1,27 @@
+﻿---
+ID: "bb3ad616-134b-4b14-8418-712e045371c0"
+Parent: "4ae66e4f-eacd-4db2-a57a-08f612a311b5"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/Modules/Sitecore Versions/Sitecore Version
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Network/32x32/certificate.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {4328B52E-BF2B-4142-BE7D-52918E871CCC}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{7EE647AA-DEB2-4BAD-9486-468590953714}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T050130Z

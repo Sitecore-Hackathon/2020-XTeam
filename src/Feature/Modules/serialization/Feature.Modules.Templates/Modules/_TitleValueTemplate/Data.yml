@@ -1,0 +1,14 @@
+﻿---
+ID: "66c1628b-c257-4da7-aea8-5bb2dc36b2a4"
+Parent: "4328b52e-bf2b-4142-be7d-52918e871ccc"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Modules/_TitleValueTemplate/Data
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T053705Z

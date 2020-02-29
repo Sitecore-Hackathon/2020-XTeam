@@ -1,0 +1,18 @@
+﻿---
+ID: "d4f479fa-cf97-4df5-95d3-6f352baf21dc"
+Parent: "75d679f4-9ef2-4bc7-b75f-4eb5c4d4d356"
+Template: "29252703-d448-451c-bf1e-65b16174f4b0"
+Path: /sitecore/content/Community/Marketplace/Data/Content Tokens
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T052430Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
