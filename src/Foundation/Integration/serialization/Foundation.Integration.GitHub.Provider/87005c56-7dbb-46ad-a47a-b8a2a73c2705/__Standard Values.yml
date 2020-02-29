@@ -1,0 +1,22 @@
+﻿---
+ID: "ec25d810-c453-44ba-8755-dce6bab92405"
+Parent: "87005c56-7dbb-46ad-a47a-b8a2a73c2705"
+Template: "87005c56-7dbb-46ad-a47a-b8a2a73c2705"
+Path: /sitecore/templates/Data Exchange/Providers/GitHub/Data Access/Value Accessor Sets/GitHub Value Accessor Set/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{0ABC5213-530C-408E-896B-8A9B80FE62B1}"
+- ID: "3c7f78cc-0c5c-4076-80ef-9a49fda5ff96"
+  Hint: ConverterType
+  Value: Sitecore.DataExchange.Converters.DataAccess.ValueAccessors.ChildBasedValueAccessorSetConverter, Sitecore.DataExchange
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170902T215444Z

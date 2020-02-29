@@ -1,0 +1,22 @@
+﻿---
+ID: "42c15fc1-f61e-49eb-a77e-ea5701718472"
+Parent: "c1938c4f-0fbc-490b-9a34-e000c512ad89"
+Template: "c1938c4f-0fbc-490b-9a34-e000c512ad89"
+Path: /sitecore/templates/Data Exchange/Providers/GitHub/Endpoints/Anonymous GitHub Endpoint/__Standard Values
+DB: master
+SharedFields:
+- ID: "3c7f78cc-0c5c-4076-80ef-9a49fda5ff96"
+  Hint: ConverterType
+  Value: xTeam.Foundation.Integration.GitHub.GitHubEndpointConverter, xTeam.Foundation.Integration
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T092839Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
