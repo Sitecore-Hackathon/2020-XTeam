@@ -8,23 +8,9 @@ SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
   Value: Software/32x32/jar_bean.png
-- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
-  Hint: __Workflow
-  Value: 
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 300
-- ID: "c9283d9e-7c29-4419-9c28-5a5c8ff53e84"
-  Hint: __Bucketable
-  Type: Checkbox
-  Value: 1
-- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
-  Hint: __Default workflow
-  Value: "{23D0FFA3-BE5B-451E-B52B-47D40E2AE65C}"
-- ID: "f7b94d8c-a842-49f8-ab7a-2169d00426b0"
-  Hint: __Should Not Organize In Bucket
-  Type: Checkbox
-  Value: 1
 Languages:
 - Language: en
   Versions:

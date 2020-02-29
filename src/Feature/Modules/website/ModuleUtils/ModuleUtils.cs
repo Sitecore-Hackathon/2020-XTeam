@@ -18,7 +18,6 @@ namespace xTeam.Feature.Modules.ModuleUtils
 
             using (new Sitecore.SecurityModel.SecurityDisabler())
             {
-
                 Sitecore.Data.Database master = Database.GetDatabase(ModuleUtilsConstant.MasterDatabase);
                 Sitecore.Diagnostics.Assert.ArgumentNotNull(master, "Master Database");
 

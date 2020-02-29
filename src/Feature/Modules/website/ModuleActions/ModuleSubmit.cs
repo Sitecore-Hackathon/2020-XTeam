@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using Newtonsoft.Json;
 using Sitecore.Events;
 using Sitecore.ExperienceForms.Models;
 using Sitecore.ExperienceForms.Processing;
 using Sitecore.ExperienceForms.Processing.Actions;
+using xTeam.Feature.Modules.Module;
 using xTeam.Feature.Modules.ModuleActions.Events;
 using static System.FormattableString;
 
@@ -45,8 +47,13 @@ namespace xTeam.Feature.Modules.ModuleActions
         /// </returns>
         protected override bool Execute(string data, FormSubmitContext formSubmitContext)
         {
+            // Serialize our form information
+            ModuleItem moduleItem = new ModuleItem(formSubmitContext);
+            string jsonString = JsonConvert.SerializeObject(moduleItem);
+            //var parameters = new object[] { jsonString };
+
             // Raise the local event
-            Event.RaiseEvent("module:submit");
+            Event.RaiseEvent("module:submit", new object[] { jsonString });
 
             // Add some data to the Event Queue, which will be consumed by other instances and then raised as events on those instances.
             Sitecore.Eventing.EventManager.RaiseEvent<RemoteSubmitModuleEvent>(new RemoteSubmitModuleEvent());
