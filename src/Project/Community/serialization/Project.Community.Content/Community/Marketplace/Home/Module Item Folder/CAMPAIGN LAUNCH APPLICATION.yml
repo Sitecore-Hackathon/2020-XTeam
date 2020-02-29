@@ -19,16 +19,44 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20200229T210045Z
+    - ID: "29ffcf6a-3300-4eef-bd80-59aa99404d18"
+      Hint: Download Count
+      Value: 5
     - ID: "345d5bb4-a027-4a69-ac4f-a145e05474e2"
       Hint: Git Hub URL
       Value: |
         <link linktype="external" url="https://github.com/Sitecore/sitecore-cla" anchor="" target="" />
+    - ID: "61b1cb45-6894-4931-8138-7d37864c4eaf"
+      Hint: Stars
+      Value: 2
     - ID: "68f8c50f-6eca-44a1-b630-a2960125e61b"
       Hint: Title
       Value: CAMPAIGN LAUNCH APPLICATION
+    - ID: "73a766c5-576a-49c3-ba97-43c5c75cb759"
+      Hint: Title
+      Value: CAMPAIGN LAUNCH APPLICATION
+    - ID: "9102153d-ec29-4317-a4f2-5d361fe5fb07"
+      Hint: Read Me
+      Value: |
+        <div id="readme" class="md" data-path="README.md"><article class="markdown-body entry-content p-5" itemprop="text"><h1><a id="user-content-sitecore-cla" class="anchor" aria-hidden="true" href="#sitecore-cla"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>sitecore-cla</h1>
+        <p>Campaign Launch Application (CLA) is a Sitecore shared source module</p>
+        </article></div>
+    - ID: "94d22b54-63c5-49b8-ad51-a214b7805418"
+      Hint: Product Line
+      Value: "{7AC73065-89C3-4542-ACE4-7F4F88F5693A}"
+    - ID: "96375f05-4682-479b-9512-4d97c3611f16"
+      Hint: Author
+      Value: Sitecore
+    - ID: "a6ec2225-f000-46a3-8fd0-a3d4812037f9"
+      Hint: Tested Against Sitecore Version
+      Type: Multilist
+      Value: "{7200CB83-8FB5-41FC-80C9-05E6D67DC2C7}"
     - ID: "b4633d93-7e3a-4d08-8b44-852cc925fd19"
       Hint: Last Commit Date
-      Value: 20200229T124630Z
+      Value: 20131127T124600Z
+    - ID: "d3741a17-c75f-49b0-80e9-dcbfbd2593f0"
+      Hint: Summary
+      Value: sitecore
     - ID: "eacac0a6-45dc-43a5-ad23-57c0fe938d4d"
       Hint: Content
       Value: |

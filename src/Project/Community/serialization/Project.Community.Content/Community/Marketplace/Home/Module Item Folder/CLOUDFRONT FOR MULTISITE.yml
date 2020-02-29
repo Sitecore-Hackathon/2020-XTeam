@@ -1,0 +1,86 @@
+﻿---
+ID: "138080ae-541a-411e-9c63-64735638eb77"
+Parent: "159f1fa5-54ab-4fdc-876f-e0c427e0a98d"
+Template: "51e67dfc-cca5-4283-9157-50d310732f11"
+Path: /sitecore/content/Community/Marketplace/Home/Module Item Folder/CLOUDFRONT FOR MULTISITE
+DB: master
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{C0219AF0-03B5-4A70-8473-C76731B42AC3}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0a02003c-9c46-416d-8a28-5edaac8ae49c"
+      Hint: Release Date
+      Value: 20190923T050000Z
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T210050Z
+    - ID: "29ffcf6a-3300-4eef-bd80-59aa99404d18"
+      Hint: Download Count
+      Value: 20
+    - ID: "345d5bb4-a027-4a69-ac4f-a145e05474e2"
+      Hint: Git Hub URL
+      Value: |
+        <link linktype="external" url="https://github.com/vikashinchennai/CloudFront-MultiSite" anchor="" target="" />
+    - ID: "61b1cb45-6894-4931-8138-7d37864c4eaf"
+      Hint: Stars
+      Value: 4
+    - ID: "68f8c50f-6eca-44a1-b630-a2960125e61b"
+      Hint: Title
+      Value: CLOUDFRONT FOR MULTISITE
+    - ID: "94d22b54-63c5-49b8-ad51-a214b7805418"
+      Hint: Product Line
+      Value: "{7AC73065-89C3-4542-ACE4-7F4F88F5693A}"
+    - ID: "96375f05-4682-479b-9512-4d97c3611f16"
+      Hint: Author
+      Value: Vikash Raaj
+    - ID: "a6ec2225-f000-46a3-8fd0-a3d4812037f9"
+      Hint: Tested Against Sitecore Version
+      Type: Multilist
+      Value: "{B7C3D2D2-3B92-4557-B4C2-B769E1F5E07B}"
+    - ID: "b4633d93-7e3a-4d08-8b44-852cc925fd19"
+      Hint: Last Commit Date
+      Value: 20190910T050000Z
+    - ID: "d3741a17-c75f-49b0-80e9-dcbfbd2593f0"
+      Hint: Summary
+      Value: |
+        Drawbacks of Existing tools
+        No option to support different CNAME for media for each site.
+        Single CDN url for all sites
+        Master\preview doesn’t have CDN URL.
+        Single item push, Folder level push, clean up features together won’t be available.
+    - ID: "eacac0a6-45dc-43a5-ad23-57c0fe938d4d"
+      Hint: Content
+      Value: |
+        <h1 style="color: #404040; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">Drawbacks of Existing tools</h1>
+        <ul style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px; list-style-image: initial;">
+            <li style="background: transparent; margin: 0px; padding: 0px; border: 0px; list-style-type: disc; list-style-image: initial;">No option to support different CNAME for media for each site.</li>
+            <li style="background: transparent; margin: 0px; padding: 0px; border: 0px; list-style-type: disc; list-style-image: initial;">Single CDN url for all sites</li>
+            <li style="background: transparent; margin: 0px; padding: 0px; border: 0px; list-style-type: disc; list-style-image: initial;">Master\preview doesn&rsquo;t have CDN URL.</li>
+            <li style="background: transparent; margin: 0px; padding: 0px; border: 0px; list-style-type: disc; list-style-image: initial;">Single item push, Folder level push, clean up features together won&rsquo;t be available.</li>
+        </ul>
+        <h1 style="color: #404040; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">Advantages of Multi Site Cloud Front Plugin</h1>
+        <ul style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px; list-style-image: initial;">
+            <li style="background: transparent; margin: 0px; padding: 0px; border: 0px; list-style-type: disc; list-style-image: initial;">Support for different CDN Domain for each Micro Site in Sitecore</li>
+            <li style="background: transparent; margin: 0px; padding: 0px; border: 0px; list-style-type: disc; list-style-image: initial;">Option to allow default CDN Url if not available for the micro site.</li>
+            <li style="background: transparent; margin: 0px; padding: 0px; border: 0px; list-style-type: disc; list-style-image: initial;">Enable\Disable at Site level, global level &amp; Web.Config level.</li>
+            <li style="background: transparent; margin: 0px; padding: 0px; border: 0px; list-style-type: disc; list-style-image: initial;">Ability to clean the CDN of Master, Web sync folder separately and clean out old unused files.
+            <ul style="background: transparent; margin: 0px; padding: 0px; border: 0px; list-style-image: initial;">
+                <li style="background: transparent; margin: 0px; padding: 0px; border: 0px; list-style-type: disc; list-style-image: initial;">Either admin or a user with a Role can do the same.</li>
+            </ul>
+            </li>
+            <li style="background: transparent; margin: 0px; padding: 0px; border: 0px; list-style-type: disc; list-style-image: initial;">Media Item, Or All Descendents can be synced or cleaned out.</li>
+            <li style="background: transparent; margin: 0px; padding: 0px; border: 0px; list-style-type: disc; list-style-image: initial;">CDN Maintained at versioning with language, version no and last updated at.</li>
+            <li style="background: transparent; margin: 0px; padding: 0px; border: 0px; list-style-type: disc; list-style-image: initial;">Ability to select what type of item needs to be moved and loaded from CDN</li>
+        </ul>
+        <h1 style="color: #404040; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">Environment Supported.</h1>
+        <p style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">Currently the installable will support only&nbsp;<strong style="background: transparent; margin: 0px; padding: 0px; border: 0px;">Sitecore 9.1 update 1 version</strong>, if you need to make use of the same at some other version, you are required to&nbsp;<strong style="background: transparent; margin: 0px; padding: 0px; border: 0px;">download the latest code base from GitHub</strong>&nbsp;and then change the dependent dll, &amp; solution version and generate the DLL.</p>
+        <h1 style="color: #404040; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">Code Base</h1>
+        <p style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;"><span style="background: transparent; margin: 0px; padding: 0px; border: 0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Code has been released as Open source in GitHub @&nbsp;<a href="https://github.com/vikashinchennai/CloudFront-MultiSite" style="color: #af2d21; background: transparent; margin: 0px; padding: 0px; border: 0px;">https://github.com/vikashinchennai/CloudFront-MultiSite</a></p>
+        <p style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">Changes or upgrade are welcome on the plugin</p>
+        <h1 style="color: #404040; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">Support</h1>
+        <p style="color: #606060; background: #f8f8f8; margin-top: 0px; margin-right: 0px; margin-left: 0px; padding: 0px; border: 0px;"><span style="background: transparent; margin: 0px; padding: 0px; border: 0px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Feel free to reach to be in Git or directly for any support or ideas,</p>

@@ -1,0 +1,107 @@
+﻿---
+ID: "c287feec-343e-4d02-9a88-a2bd284b578b"
+Parent: "159f1fa5-54ab-4fdc-876f-e0c427e0a98d"
+Template: "51e67dfc-cca5-4283-9157-50d310732f11"
+Path: /sitecore/content/Community/Marketplace/Home/Module Item Folder/ANALYTICS CHANNEL RULES
+DB: master
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{C0219AF0-03B5-4A70-8473-C76731B42AC3}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0a02003c-9c46-416d-8a28-5edaac8ae49c"
+      Hint: Release Date
+      Value: 20180402T050000Z
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T210102Z
+    - ID: "29ffcf6a-3300-4eef-bd80-59aa99404d18"
+      Hint: Download Count
+      Value: 44
+    - ID: "345d5bb4-a027-4a69-ac4f-a145e05474e2"
+      Hint: Git Hub URL
+      Value: |
+        <link linktype="external" url="https://github.com/alkoky/AnalyticsCustomRules" />
+    - ID: "4d64ce38-4dda-4072-a4f1-a781d09babd9"
+      Hint: Documentation URL
+      Value: |
+        <link linktype="external" url="https://github.com/alkoky/AnalyticsCustomRules/wiki/Usage" />
+    - ID: "61b1cb45-6894-4931-8138-7d37864c4eaf"
+      Hint: Stars
+      Value: 4
+    - ID: "68f8c50f-6eca-44a1-b630-a2960125e61b"
+      Hint: Title
+      Value: ANALYTICS CHANNEL RULES
+    - ID: "94d22b54-63c5-49b8-ad51-a214b7805418"
+      Hint: Product Line
+      Value: "{7AC73065-89C3-4542-ACE4-7F4F88F5693A}"
+    - ID: "96375f05-4682-479b-9512-4d97c3611f16"
+      Hint: Author
+      Value: Naim Al
+    - ID: "a6ec2225-f000-46a3-8fd0-a3d4812037f9"
+      Hint: Tested Against Sitecore Version
+      Type: Multilist
+      Value: "{21A8E14E-1A5E-469E-9E81-BF944FF74ED7}"
+    - ID: "b4633d93-7e3a-4d08-8b44-852cc925fd19"
+      Hint: Last Commit Date
+      Value: 20180402T050000Z
+    - ID: "d3741a17-c75f-49b0-80e9-dcbfbd2593f0"
+      Hint: Summary
+      Value: This module allows you to manage marketing channels settings rules instead of configuring it in the configuration file which gives the author more flexibility and eliminate the need for a developer to apply the changes.
+    - ID: "eacac0a6-45dc-43a5-ad23-57c0fe938d4d"
+      Hint: Content
+      Value: |
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">itecore - Analytics.ChannelRules</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">==================================</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">&nbsp;</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">Summary</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">--------------</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">&nbsp;</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">This module allows you to manage marketing channels settings rules instead of configuring it in the configure file which gives the author more flexibility and eliminate the need for a developer to apply the changes.</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">&nbsp;</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">Usage</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">--------------</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">Manage rules under /sitecore/system/Marketing Control Panel/Taxonomies/Channel Rules</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">&nbsp;</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">&nbsp;&nbsp;</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">Setup</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">--------------</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">Either:</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">* Install Sitecore package:&nbsp;</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">&nbsp; https://github.com/alkoky/Analytics.ChannelRules/blob/master/releases/Analytics%20Channel%20Rules-1.0.zip</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;"><span style="background: transparent; margin: 0px; padding: 0px; border: 0px;"> </span></div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">Or:</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">1. Include this project in your Helix style solution</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">2. Update NuGet references to match target Sitecore version</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">3. Install sitecore package for data or sync unicorn</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">&nbsp;</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">Notes</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">--------------</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">This was built and tested with Sitecore 8.1 update 2.</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">&nbsp;</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">This package adds the following files:</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">&nbsp;</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">&nbsp; &nbsp; &nbsp;/bin/Foundation.Analytics.ChannelRules.dll</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">&nbsp; &nbsp; &nbsp;/bin/Foundation.Analytics.ChannelRules.pdb</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">&nbsp;</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">&nbsp; &nbsp; &nbsp;/App_Config/Include/Foundation/Foundation.AnalyticsCustomRules.config</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">&nbsp; &nbsp; &nbsp;/App_Config/Include/Foundation/Foundation.AnalyticsCustomRules.Serialization.config</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">&nbsp;</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">This package adds data items to the following locations:</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">&nbsp; &nbsp;&nbsp;</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">&nbsp; &nbsp; /sitecore/system/Settings/Rules/Channels</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;"><span style="background: transparent; margin: 0px; padding: 0px; border: 0px;"> </span>/sitecore/system/Settings/Rules/Definitions/Tags/Channels</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">&nbsp; &nbsp; /sitecore/system/Settings/Rules/Definitions/Elements/Channels</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;"><span style="background: transparent; margin: 0px; padding: 0px; border: 0px;"> </span></div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;"><span style="background: transparent; margin: 0px; padding: 0px; border: 0px;"> </span>/sitecore/system/Marketing Control Panel/Taxonomies/Channel Rules/Sample Campain</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;"><span style="background: transparent; margin: 0px; padding: 0px; border: 0px;"> </span></div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">&nbsp; &nbsp; /sitecore/templates/Foundation/ChannelRules/Channel Rule</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;"><span style="background: transparent; margin: 0px; padding: 0px; border: 0px;"> </span>/sitecore/templates/Foundation/ChannelRules/Channel Rule Folder</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;"><span style="background: transparent; margin: 0px; padding: 0px; border: 0px;"> </span></div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">Credit</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">----------</div>
+        <div style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">Many thanks to James Gregory https://github.com/digitalParkour</div>

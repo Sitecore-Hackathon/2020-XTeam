@@ -1,0 +1,139 @@
+﻿---
+ID: "ad86ac7e-1150-4006-b568-4488f0e78b0e"
+Parent: "159f1fa5-54ab-4fdc-876f-e0c427e0a98d"
+Template: "51e67dfc-cca5-4283-9157-50d310732f11"
+Path: /sitecore/content/Community/Marketplace/Home/Module Item Folder/SITECORE POWERSHELL EXTENSIONS
+DB: master
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{C0219AF0-03B5-4A70-8473-C76731B42AC3}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0a02003c-9c46-416d-8a28-5edaac8ae49c"
+      Hint: Release Date
+      Value: 20120911T050000Z
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T210040Z
+    - ID: "29ffcf6a-3300-4eef-bd80-59aa99404d18"
+      Hint: Download Count
+      Value: 5000
+    - ID: "345d5bb4-a027-4a69-ac4f-a145e05474e2"
+      Hint: Git Hub URL
+      Value: |
+        <link linktype="external" url="https://github.com/SitecorePowerShell/Console/" anchor="" target="" />
+    - ID: "4d64ce38-4dda-4072-a4f1-a781d09babd9"
+      Hint: Documentation URL
+      Value: |
+        <link linktype="external" url="https://doc.sitecorepowershell.com/" />
+    - ID: "61b1cb45-6894-4931-8138-7d37864c4eaf"
+      Hint: Stars
+      Value: 5
+    - ID: "68f8c50f-6eca-44a1-b630-a2960125e61b"
+      Hint: Title
+      Value: SITECORE POWERSHELL EXTENSIONS
+    - ID: "94d22b54-63c5-49b8-ad51-a214b7805418"
+      Hint: Product Line
+      Value: "{7AC73065-89C3-4542-ACE4-7F4F88F5693A}"
+    - ID: "96375f05-4682-479b-9512-4d97c3611f16"
+      Hint: Author
+      Value: Sitecore PowerShell Extensions Team
+    - ID: "a6ec2225-f000-46a3-8fd0-a3d4812037f9"
+      Hint: Tested Against Sitecore Version
+      Type: Multilist
+      Value: |
+        {7200CB83-8FB5-41FC-80C9-05E6D67DC2C7}
+        {21A8E14E-1A5E-469E-9E81-BF944FF74ED7}
+        {B7C3D2D2-3B92-4557-B4C2-B769E1F5E07B}
+        {0C19A9D2-C025-4989-808C-9C77C0806D4B}
+    - ID: "b4633d93-7e3a-4d08-8b44-852cc925fd19"
+      Hint: Last Commit Date
+      Value: 20190923T050000Z
+    - ID: "d3741a17-c75f-49b0-80e9-dcbfbd2593f0"
+      Hint: Summary
+      Value: |
+        As the module allows your developers to execute arbitrary code we recommend that you do not install it on Content Delivery instances or if possible avoid deploying it on servers facing the Internet altogether. Please consult the Security section of our GitBook for more information on the subject of hardening your instance.
+        
+        
+        SPE 5.1 - Compatible for Sitecore 8.0-9.2.
+        
+        SPE 5.0 - Compatible for Sitecore 8.0-9.1.
+        SPE 4.7+ Compatible for Sitecore 7.0-9.1. 
+        
+    - ID: "eacac0a6-45dc-43a5-ad23-57c0fe938d4d"
+      Hint: Content
+      Value: |
+        # Sitecore PowerShell Extensions<br />
+        <br />
+        A command line and scripting tool built for the Sitecore platform.<br />
+        <br />
+        ![Sitecore PowerShell Extensions](https://raw.githubusercontent.com/SitecorePowerShell/Console/master/readme-console-ise.png)<br />
+        <br />
+        ---<br />
+        <br />
+        ## Notice<br />
+        <br />
+        &gt;&nbsp;<br />
+        * If you are using version 4.2 or older in your environments we recommend you update them to 5.0+ ASAP<br />
+        * We recommend that you DO NOT install SPE on Content Delivery servers<br />
+        or run it in setups that face the Internet in an unprotected connections&nbsp;<br />
+        (e.g. outside of a VPN protected environment)<br />
+        * Sitecore versions 7.x and below are no longer supported with the release of SPE 5.0<br />
+        ---<br />
+        <br />
+        [![License](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg)](https://opensource.org/licenses/MIT)<br />
+        <br />
+        The Sitecore PowerShell Extensions module (SPE) provides a robust environment for automating tasks within Sitecore.<br />
+        <br />
+        ![Sitecore PowerShell Extensions](https://raw.githubusercontent.com/SitecorePowerShell/Console/master/readme-ise.gif)<br />
+        <br />
+        Consider some of the following examples to see how SPE can improve your quality of life as a Sitecore developer/administrator:<br />
+        <br />
+        - Make changes to a large number of pages:<br />
+        ```powershell<br />
+        Get-ChildItem -Path master:\content\home -Recurse |&nbsp;<br />
+        &nbsp; &nbsp; ForEach-Object { $_.Text += "&lt;p&gt;Updated with SPE&lt;/p&gt;"&nbsp; }<br />
+        ```<br />
+        <br />
+        - Find the oldest page on your site:<br />
+        ```powershell<br />
+        Get-ChildItem -Path master:\content\home -Recurse |&nbsp;<br />
+        &nbsp; &nbsp; Select-Object -Property Name,Id,"__Updated" |&nbsp;<br />
+        &nbsp; &nbsp; Sort-Object -Property "__Updated"<br />
+        ```<br />
+        <br />
+        - Remove a file from the Data directory:<br />
+        ```powershell<br />
+        Get-ChildItem -Path $SitecoreDataFolder\packages -Filter "readme.txt" | Remove-Item<br />
+        ```<br />
+        <br />
+        - Rename items in the Media Library:<br />
+        ```powershell<br />
+        Get-ChildItem -Path "master:\media library\Images" |&nbsp;<br />
+        &nbsp; &nbsp; ForEach-Object { Rename-Item -Path $_.ItemPath -NewName ($_.Name + "-old") }<br />
+        ```<br />
+        <br />
+        The idea behind the project is to create a scripting environment to work within Sitecore on a granular level to allow you to apply complex modifications and manipulate not just sites, but files and pages on a large scale or perform statistical analysis of your content using a familiar and well documented query language **Windows PowerShell**.<br />
+        <br />
+        If you have any questions, comments, or suggegstions with the SPE module, please report them in the Issue Tracker. We'll also gladly respond to any of your questions on Sitecore Shared Source Modules Forum or in the Project Discussion Pages.<br />
+        <br />
+        Enjoy!<br />
+        <br />
+        | [![Adam Najmanowicz](https://avatars2.githubusercontent.com/u/1209953?v=3&amp;s=125)](https://github.com/AdamNaj) | [![Michael West](https://gravatar.com/avatar/a2914bafbdf4e967701eb4732bde01c5?s=125)](https://github.com/michaellwest) |<br />
+        | ---|--- |<br />
+        | [Adam Najmanowicz](https://blog.najmanowicz.com) | [Michael West](https://michaellwest.blogspot.com) |<br />
+        | Founder, Architect &amp; Lead Developer | Developer &amp; Documentation Lead |<br />
+        <br />
+        ---<br />
+        <br />
+        ### Resources<br />
+        <br />
+        * Download the module from the [Sitecore Marketplace](http://marketplace.sitecore.net/en/Modules/Sitecore_PowerShell_console.aspx).<br />
+        * Read the [SPE user guide](https://doc.sitecorepowershell.com/).<br />
+        * See a whole [variety of links to SPE material](http://blog.najmanowicz.com/sitecore-powershell-console/).<br />
+        * Watch some quick start [training videos](http://www.youtube.com/playlist?list=PLph7ZchYd_nCypVZSNkudGwPFRqf1na0b).<br />
+        <div>&nbsp;</div>
