@@ -1,0 +1,28 @@
+﻿---
+ID: "63f28a09-b9c3-4e53-ad8b-dadb818736c0"
+Parent: "a6b6df4e-ce07-4c3c-b4c1-203fe497cdaf"
+Template: "8e726575-35cf-48a0-b2c9-00c30d16f2d9"
+Path: /sitecore/system/Data Exchange/GitHub/Pipelines/Update Each Module Item/Apply Mapping Pipeline Step
+DB: master
+SharedFields:
+- ID: "bfc7293c-4c0d-4fbd-862e-69c10d3b7095"
+  Hint: TargetObjectLocation
+  Value: "{EC64487D-E7E6-40B0-A86C-40C74B95E04E}"
+- ID: "cb970e4d-aa7c-4ad1-8984-59bf01163d08"
+  Hint: MappingSet
+  Value: "{4B2C8A96-DA0C-48AF-AD32-E41542F120B6}"
+- ID: "dc6ccab3-a90f-4f91-82a9-7d358b0039ff"
+  Hint: SourceObjectLocation
+  Value: "{17DF1143-A38D-4C77-A933-E66B5ED21E9A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T150838Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

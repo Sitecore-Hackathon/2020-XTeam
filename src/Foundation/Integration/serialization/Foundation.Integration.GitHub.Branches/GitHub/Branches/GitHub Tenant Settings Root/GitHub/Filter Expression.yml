@@ -1,0 +1,18 @@
+﻿---
+ID: "4e47d0f5-a781-45a0-b342-06eb5a23ddac"
+Parent: "f0e19033-50ba-451a-9483-de18e8ca91e2"
+Template: "89328446-cc4b-4d95-ada3-0ba89227d823"
+Path: /sitecore/templates/Branches/Data Exchange/Providers/GitHub/Branches/GitHub Tenant Settings Root/GitHub/Filter Expression
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T142128Z

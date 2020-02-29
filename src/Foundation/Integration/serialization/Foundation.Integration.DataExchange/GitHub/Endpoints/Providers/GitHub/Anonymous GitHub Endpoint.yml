@@ -1,0 +1,14 @@
+﻿---
+ID: "62fde9d9-e793-413f-b1e0-a8689d990efd"
+Parent: "5d1cb4e7-43e7-4448-a6da-d4e56bc600e2"
+Template: "c1938c4f-0fbc-490b-9a34-e000c512ad89"
+Path: /sitecore/system/Data Exchange/GitHub/Endpoints/Providers/GitHub/Anonymous GitHub Endpoint
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T143124Z

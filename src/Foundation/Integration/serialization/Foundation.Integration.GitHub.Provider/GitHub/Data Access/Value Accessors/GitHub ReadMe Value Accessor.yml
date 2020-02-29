@@ -1,6 +1,6 @@
 ﻿---
 ID: "0abc5213-530c-408e-896b-8a9b80fe62b1"
-Parent: "dc7046e3-90a8-493a-9ed8-7e2abd03baea"
+Parent: "b5e9b33e-095f-4901-8435-53b12fb440b1"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Data Exchange/Providers/GitHub/Data Access/Value Accessors/GitHub ReadMe Value Accessor
 DB: master

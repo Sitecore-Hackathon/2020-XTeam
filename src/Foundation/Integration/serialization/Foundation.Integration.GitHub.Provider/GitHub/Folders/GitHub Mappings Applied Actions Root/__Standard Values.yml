@@ -1,0 +1,18 @@
+﻿---
+ID: "6ca37cbd-e46d-436a-b0b1-18535982453f"
+Parent: "d4e0f302-171a-4dcf-8639-544fb2b8936f"
+Template: "d4e0f302-171a-4dcf-8639-544fb2b8936f"
+Path: /sitecore/templates/Data Exchange/Providers/GitHub/Folders/GitHub Mappings Applied Actions Root/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T142126Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous

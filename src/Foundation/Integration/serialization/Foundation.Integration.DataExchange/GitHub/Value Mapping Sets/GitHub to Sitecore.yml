@@ -1,0 +1,18 @@
+﻿---
+ID: "4b2c8a96-da0c-48af-ad32-e41542f120b6"
+Parent: "3292305e-d967-44a0-97bf-a6c6e0eef3a4"
+Template: "9748075a-268b-4bd4-8444-c6898b12d502"
+Path: /sitecore/system/Data Exchange/GitHub/Value Mapping Sets/GitHub to Sitecore
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T144852Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

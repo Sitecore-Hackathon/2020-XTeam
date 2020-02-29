@@ -1,0 +1,18 @@
+﻿---
+ID: "e6bdb184-c78c-4857-995d-18842c872140"
+Parent: "1e4ecfe9-4eab-456f-be01-15cc9bc8a2fe"
+Template: "4ce6ac7a-56c9-4280-86a5-f3c6998fc447"
+Path: /sitecore/system/Data Exchange/GitHub/Data Access/Value Accessor Sets/Providers/Sitecore
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T143740Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
