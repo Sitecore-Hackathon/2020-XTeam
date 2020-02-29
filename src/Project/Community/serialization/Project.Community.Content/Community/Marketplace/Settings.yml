@@ -29,7 +29,9 @@ SharedFields:
 - ID: "beeede03-ab13-4558-96f9-c3e8957b46f8"
   Hint: Themes
   Type: Treelist
-  Value: "{6BC14DF7-8DFB-4978-9E59-BC7069DF296B}"
+  Value: |
+    {6BC14DF7-8DFB-4978-9E59-BC7069DF296B}
+    {A7F07AC6-6141-408F-A3D2-D48A3B261CB1}
 - ID: "e81e1f9e-8b87-495b-9cb7-84a2a23133be"
   Hint: MediaLibrary
   Value: "{5131FC6B-D560-4A68-98BA-C543305F2227}"
