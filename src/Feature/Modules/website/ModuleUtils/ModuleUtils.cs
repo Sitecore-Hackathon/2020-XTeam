@@ -1,12 +1,13 @@
 ﻿using Sitecore;
+using Sitecore.ContentTagging;
+using Sitecore.ContentTagging.Core.Messaging;
 using Sitecore.Data;
 using Sitecore.Data.Items;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+using Sitecore.DependencyInjection;
 using xTeam.Feature.Modules.Module;
 using static xTeam.Feature.Modules.ModuleUtils.ModuleUtilsConstant;
+using Microsoft.Extensions.DependencyInjection;
+using Sitecore.ContentTagging.Jobs;
 
 namespace xTeam.Feature.Modules.ModuleUtils
 {
@@ -19,7 +20,7 @@ namespace xTeam.Feature.Modules.ModuleUtils
             using (new Sitecore.SecurityModel.SecurityDisabler())
             {
                 
-                Sitecore.Data.Database master = Database.GetDatabase(ModuleUtilsConstant.MasterDatabase);
+                Sitecore.Data.Database master = Database.GetDatabase(MasterDatabase);
                 Sitecore.Diagnostics.Assert.ArgumentNotNull(master, "Master Database");
 
                 TemplateItem template = master.GetTemplate(IDs.TemplateId);
@@ -60,6 +61,7 @@ namespace xTeam.Feature.Modules.ModuleUtils
 
                             newItem.Editing.EndEdit();
 
+                            TagItem(newItem);
                             PublishItem(newItem);
                             return true;
                         }
@@ -79,18 +81,46 @@ namespace xTeam.Feature.Modules.ModuleUtils
         }
 
 
-        private void PublishItem(Sitecore.Data.Items.Item item)
+        private void PublishItem(Item item)
         {
-            Sitecore.Publishing.PublishOptions publishOptions =  new Sitecore.Publishing.PublishOptions(item.Database, Database.GetDatabase(ModuleUtilsConstant.WebDatabase),
-                                                     Sitecore.Publishing.PublishMode.SingleItem, item.Language,
-                                                     System.DateTime.Now);  
+            try
+            {
+                Sitecore.Publishing.PublishOptions publishOptions = new Sitecore.Publishing.PublishOptions(item.Database, Database.GetDatabase(ModuleUtilsConstant.WebDatabase),
+                                                         Sitecore.Publishing.PublishMode.SingleItem, item.Language,
+                                                         System.DateTime.Now);
 
-            Sitecore.Publishing.Publisher publisher = new Sitecore.Publishing.Publisher(publishOptions);
+                Sitecore.Publishing.Publisher publisher = new Sitecore.Publishing.Publisher(publishOptions);
 
-            publisher.Options.RootItem = item;
-            publisher.Options.Mode = Sitecore.Publishing.PublishMode.Full;
+                publisher.Options.RootItem = item;
+                publisher.Options.Mode = Sitecore.Publishing.PublishMode.Full;
 
-            publisher.Publish();
+                publisher.Publish();
+            }
+            catch (System.Exception ex)
+            {
+                Sitecore.Diagnostics.Log.Error($"Failed to publish item {item.ID}", ex, this);
+            }
+        }
+
+
+        private void TagItem(Item item) {
+
+            try
+            { 
+                var ContentTaggingRunner =  ServiceLocator.ServiceProvider.GetService<IContentTaggingRunner>();
+                var MessageBusFactory = ServiceLocator.ServiceProvider.GetService<IMessageBusFactory>();
+
+                var messageBus = MessageBusFactory.Create();
+
+                JobContextMessageHandler contextMessageHandler = new JobContextMessageHandler();
+                messageBus.Subscribe((Sitecore.ContentTagging.Core.Messaging.IMessageHandler)contextMessageHandler);    
+
+                ContentTaggingRunner.Run(item, messageBus);
+            }
+            catch (System.Exception ex)
+            {
+                Sitecore.Diagnostics.Log.Error($"Failed to tag item {item.ID}", ex, this);
+            }
         }
     }
 }
