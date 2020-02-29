@@ -2,12 +2,8 @@
 using Sitecore.DataExchange.Models;
 using Sitecore.DataExchange.Troubleshooters;
 using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using xTeam.Foundation.Integration.GitHub;
 
 namespace xTeam.Foundation.Integration.GitHub
 {
@@ -26,11 +22,13 @@ namespace xTeam.Foundation.Integration.GitHub
 
             try
             {
-                var apiInfo = settings.Client.GetLastApiInfo();
+
+                var client = new GitHubClient(new ProductHeaderValue(GitHubEndpointConverter.AppName));
+                var apiInfo = client.GetLastApiInfo();
 
                 if (apiInfo == null)
                 {
-                    return TroubleshooterResult.SuccessResult(Task.Run(() => GetRateInfo(settings.Client)).Result);
+                    return TroubleshooterResult.SuccessResult(Task.Run(() => GetRateInfo(client)).Result);
                 }
                 else {
 

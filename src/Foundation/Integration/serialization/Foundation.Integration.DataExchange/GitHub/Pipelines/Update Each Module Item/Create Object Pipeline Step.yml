@@ -13,7 +13,10 @@ SharedFields:
   Value: "{EC64487D-E7E6-40B0-A86C-40C74B95E04E}"
 - ID: "49e8ef32-bbf6-421b-9044-1df0bab24447"
   Hint: ValueAccessorSetForConstructorParameters
-  Value: "{FDCEA4CD-BB80-4C79-A49D-3753D2B8C769}"
+  Value: "{57415E56-4A86-4AAE-8EC8-3AF2619B6D1C}"
+- ID: "a83a2eb2-bfa1-4d3f-9f17-0cc6c9a91c42"
+  Hint: ProcessorType
+  Value: Sitecore.DataExchange.Processors.PipelineSteps.CreateObjectPipelineStepProcessor, Sitecore.DataExchange
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 0

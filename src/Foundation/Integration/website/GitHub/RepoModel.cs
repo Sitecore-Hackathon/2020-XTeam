@@ -15,12 +15,18 @@ namespace xTeam.Foundation.Integration.GitHub
             ParseProps(gitUrl as string);
         }
 
+
+        public RepoModel(string gitUrl)
+        {
+            ParseProps(gitUrl);
+        }
+
         protected void ParseProps(string gitUrl)
         {
             if (string.IsNullOrWhiteSpace(gitUrl))
                 return;
 
-            var segments = gitUrl.Split(new[] { '/' }, StringSplitOptions.RemoveEmptyEntries);
+            var segments = gitUrl.Split(new[] { '/', '\\', '"' }, StringSplitOptions.RemoveEmptyEntries);
             if (!segments.Any())
                 return;
 

@@ -90,9 +90,14 @@
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GitHub\Accessors\GitHubTrendingViewsAccessorConverter.cs" />
+    <Compile Include="GitHub\Accessors\GitHubStarCountAccessorConverter.cs" />
     <Compile Include="GitHub\Accessors\GitHubReadMeAccessorConverter.cs" />
     <Compile Include="GitHub\EndpointExtensions.cs" />
     <Compile Include="GitHub\Readers\AbstractGitHubReader.cs" />
+    <Compile Include="GitHub\Readers\GitHubLastCommitDateReader.cs" />
+    <Compile Include="GitHub\Readers\GitHubViewsCountReader.cs" />
+    <Compile Include="GitHub\Readers\GitHubStarCountReader.cs" />
     <Compile Include="GitHub\Readers\GitHubReadMeReader.cs" />
     <Compile Include="GitHub\RepoModel.cs" />
     <Compile Include="GitHub\Test.aspx.cs">
@@ -103,7 +108,7 @@
       <DependentUpon>Test.aspx</DependentUpon>
     </Compile>
     <Compile Include="GitHub\GitHubEndpointConverter.cs" />
-    <Compile Include="GitHub\TextFileEndpointTroubleshooter.cs" />
+    <Compile Include="GitHub\GitHubEndpointTroubleshooter.cs" />
     <Compile Include="GitHub\GitHubSettings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

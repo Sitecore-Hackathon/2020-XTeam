@@ -7,12 +7,12 @@ using xTeam.Foundation.Integration.GitHub.Readers;
 
 namespace xTeam.Foundation.Integration.GitHub.Accessors
 {
-    [SupportedIds(ReadMeValueAccessorTemplateId)]
-    public class GitHubReadMeAccessorConverter : ValueAccessorConverter
+    [SupportedIds(StarCountValueAccessorTemplateId)]
+    public class GitHubStarCountAccessorConverter : ValueAccessorConverter
     {
-        public const string ReadMeValueAccessorTemplateId = "{0ABC5213-530C-408E-896B-8A9B80FE62B1}";
+        public const string StarCountValueAccessorTemplateId = "{97AD989B-522B-4E19-97FA-6AA209AFD15B}";
 
-        public GitHubReadMeAccessorConverter(IItemModelRepository repository) : base(repository)
+        public GitHubStarCountAccessorConverter(IItemModelRepository repository) : base(repository)
         {
         }
 
@@ -21,7 +21,7 @@ namespace xTeam.Foundation.Integration.GitHub.Accessors
             var valueReader = base.GetValueReader(source);
             if (valueReader == null)
             {
-                valueReader = new GitHubReadMeReader();
+                valueReader = new GitHubStarCountReader();
             }
             return valueReader;
         }

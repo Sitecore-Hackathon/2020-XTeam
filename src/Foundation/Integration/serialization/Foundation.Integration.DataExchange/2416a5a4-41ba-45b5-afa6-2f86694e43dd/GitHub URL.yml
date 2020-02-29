@@ -2,7 +2,7 @@
 ID: "fdcea4cd-bb80-4c79-a49d-3753d2b8c769"
 Parent: "2416a5a4-41ba-45b5-afa6-2f86694e43dd"
 Template: "6f7375cc-9942-4e30-8c63-95281b69c65f"
-Path: /sitecore/system/Data Exchange/GitHub/Data Access/Value Accessor Sets/Providers/Sitecore/Sitecore Item Field Value Accessor Set/GitHub URL
+Path: /sitecore/system/Data Exchange/GitHub/Data Access/Value Accessor Sets/Providers/Sitecore/Sitecore Module Fields/GitHub URL
 DB: master
 SharedFields:
 - ID: "a011c1d5-1c40-4420-8592-d0ce0306e0dd"

@@ -1,13 +1,13 @@
 ﻿---
-ID: "895d29e0-8675-40b4-992b-084a62eecce1"
+ID: "15bfac5a-a5b1-43e0-ab33-1e97e381513a"
 Parent: "2416a5a4-41ba-45b5-afa6-2f86694e43dd"
 Template: "6f7375cc-9942-4e30-8c63-95281b69c65f"
-Path: /sitecore/system/Data Exchange/GitHub/Data Access/Value Accessor Sets/Providers/Sitecore/Sitecore Module Fields/ReadMe
+Path: /sitecore/system/Data Exchange/GitHub/Data Access/Value Accessor Sets/Providers/Sitecore/Sitecore Module Fields/Trending Count
 DB: master
 SharedFields:
 - ID: "a011c1d5-1c40-4420-8592-d0ce0306e0dd"
   Hint: Field
-  Value: "{9102153D-EC29-4317-A4F2-5D361FE5FB07}"
+  Value: "{29FFCF6A-3300-4EEF-BD80-59AA99404D18}"
 Languages:
 - Language: en
   Versions:
@@ -15,7 +15,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200229T143854Z
+      Value: 20200229T203939Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

@@ -1,0 +1,22 @@
+﻿---
+ID: "92d3ad09-32a4-4c1e-8632-c01bd6a8a099"
+Parent: "da01ebc9-65ef-4d6a-bbe4-e1b588610b40"
+Template: "da01ebc9-65ef-4d6a-bbe4-e1b588610b40"
+Path: /sitecore/templates/Data Exchange/Providers/GitHub/Data Access/Value Accessors/GitHub Trending Views Value Accessor/__Standard Values
+DB: master
+SharedFields:
+- ID: "3c7f78cc-0c5c-4076-80ef-9a49fda5ff96"
+  Hint: ConverterType
+  Value: xTeam.Foundation.Integration.GitHub.Accessors.GitHubTrendingViewsAccessorConverter, xTeam.Foundation.Integration
+- ID: "506bad49-3da6-474c-acb5-7bcb509bfbd7"
+  Hint: Enabled
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170902T165816Z

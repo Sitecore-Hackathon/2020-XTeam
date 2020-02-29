@@ -2,7 +2,7 @@
 ID: "2416a5a4-41ba-45b5-afa6-2f86694e43dd"
 Parent: "e6bdb184-c78c-4857-995d-18842c872140"
 Template: "7bc71c7a-6199-4b8f-97fe-d11c11b9e5c7"
-Path: /sitecore/system/Data Exchange/GitHub/Data Access/Value Accessor Sets/Providers/Sitecore/Sitecore Item Field Value Accessor Set
+Path: /sitecore/system/Data Exchange/GitHub/Data Access/Value Accessor Sets/Providers/Sitecore/Sitecore Module Fields
 DB: master
 Languages:
 - Language: en
