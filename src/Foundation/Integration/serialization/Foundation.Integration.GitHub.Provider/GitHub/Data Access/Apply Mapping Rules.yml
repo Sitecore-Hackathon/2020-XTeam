@@ -1,9 +1,13 @@
 ﻿---
-ID: "05ccb0d9-0f13-4c47-b958-04f0cecf3c9d"
-Parent: "8a0fdf04-db24-410e-adad-2c7ad28fe216"
+ID: "296071c2-3ddb-4c65-bc35-8516e13c3ebd"
+Parent: "60437f90-3445-4478-a3e8-8e798dc76685"
 Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
 Path: /sitecore/templates/Data Exchange/Providers/GitHub/Data Access/Apply Mapping Rules
 DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
 Languages:
 - Language: en
   Versions:
@@ -11,7 +15,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20170826T211525Z
+      Value: 20200229T142124Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

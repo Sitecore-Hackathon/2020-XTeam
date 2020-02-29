@@ -1,0 +1,18 @@
+﻿---
+ID: "497c01fe-9a9c-443b-a2f3-facb33e37026"
+Parent: "31b3c230-10e7-47a0-9965-87d4c04ffc26"
+Template: "b0d8d4f6-3552-486b-b240-4bf3913a837f"
+Path: /sitecore/system/Data Exchange/GitHub/Endpoints/Providers/Sitecore/Sitecore Item Model Repository Endpoint
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T143154Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

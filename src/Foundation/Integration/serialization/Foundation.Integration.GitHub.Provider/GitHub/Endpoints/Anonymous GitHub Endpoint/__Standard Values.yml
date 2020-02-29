@@ -8,6 +8,9 @@ SharedFields:
 - ID: "3c7f78cc-0c5c-4076-80ef-9a49fda5ff96"
   Hint: ConverterType
   Value: xTeam.Foundation.Integration.GitHub.GitHubEndpointConverter, xTeam.Foundation.Integration
+- ID: "98191705-4b79-4a31-a412-12e2effa358c"
+  Hint: TroubleshooterType
+  Value: xTeam.Foundation.Integration.GitHub.GitHubEndpointTroubleshooter, xTeam.Foundation.Integration
 Languages:
 - Language: en
   Versions:

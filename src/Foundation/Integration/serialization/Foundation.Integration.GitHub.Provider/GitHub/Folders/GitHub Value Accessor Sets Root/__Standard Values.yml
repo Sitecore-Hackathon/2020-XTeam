@@ -1,0 +1,18 @@
+﻿---
+ID: "55119e5c-3a8f-437a-b4f7-9f6c0b84c244"
+Parent: "d19cec6b-06f6-496f-8045-3c152b902dd3"
+Template: "d19cec6b-06f6-496f-8045-3c152b902dd3"
+Path: /sitecore/templates/Data Exchange/Providers/GitHub/Folders/GitHub Value Accessor Sets Root/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T142127Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous

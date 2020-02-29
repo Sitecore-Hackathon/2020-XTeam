@@ -12,7 +12,7 @@ namespace xTeam.Foundation.Integration.GitHub.Readers
             {
                 return ReadResult.NegativeResult(DateTime.Now);
             }
-            return ReadResult.PositiveResult(repoModel[RepoModel.Name], DateTime.Now);
+            return ReadResult.PositiveResult(repoModel.Name, DateTime.Now);
         }
     }
 }

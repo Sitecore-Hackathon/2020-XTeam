@@ -1,0 +1,18 @@
+﻿---
+ID: "f0e19033-50ba-451a-9483-de18e8ca91e2"
+Parent: "b7fbd9b0-beba-43b6-ab97-384c39851404"
+Template: "8065b29a-0531-434a-b205-eb60e4466fd0"
+Path: /sitecore/templates/Branches/Data Exchange/Providers/GitHub/Branches/GitHub Tenant Settings Root/GitHub
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T142128Z
