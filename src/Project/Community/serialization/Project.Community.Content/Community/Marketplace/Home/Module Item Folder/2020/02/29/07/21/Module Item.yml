@@ -19,3 +19,9 @@ Languages:
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
       Value: "{23175DE7-96CB-4C9E-9D33-49A9845CAD1F}"
+    - ID: "9102153d-ec29-4317-a4f2-5d361fe5fb07"
+      Hint: Read Me
+      Value: |
+        <h1 style="color: #24292e; background-color: #ffffff; margin: 0px 0px 16px; padding-bottom: 0.3em; border-bottom: 1px solid #eaecef;">Sitecore-SplitShot</h1>
+        <p style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 16px;">When you develop large multilingual website, it becomes more and more complex overtime, new features added every sprint, new languages and country sites are added qarterly, and it takes more time to verify that your current functionality works fine and a sublayout you're changing for Japan website is not going to break the US or some other multilingual site out of 10+ available.</p>
+        <p style="color: #24292e; background-color: #ffffff; margin-top: 0px;">Clicking through the 15-20 pages every time you change something? Use this module instead!</p>
