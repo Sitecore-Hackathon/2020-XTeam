@@ -8,6 +8,9 @@ SharedFields:
 - ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
   Hint: Page Design
   Value: "{C0219AF0-03B5-4A70-8473-C76731B42AC3}"
+- ID: "97fb669d-5b8e-4829-9a24-06418c315d73"
+  Hint: SxaTags
+  Value: "{7EE82421-6BCE-46A7-BDBD-7B35CA2B0977}|{BA42DF0E-D17E-4F14-B590-3555230E0958}|{A9169392-7C85-40B9-9890-D9C1F8D0BF8B}|{B40D5282-A866-47EC-AFA2-1CA8B8590B10}|{13BB9095-6AD1-4349-945C-D6FCF2953F4E}|{3FA0B007-6C36-4714-9E3C-DFABA8462C94}|{7B314166-7B3F-4384-B2F3-750B9AEB609D}"
 Languages:
 - Language: en
   Versions:
@@ -32,15 +35,6 @@ Languages:
     - ID: "68f8c50f-6eca-44a1-b630-a2960125e61b"
       Hint: Title
       Value: CAMPAIGN LAUNCH APPLICATION
-    - ID: "73a766c5-576a-49c3-ba97-43c5c75cb759"
-      Hint: Title
-      Value: CAMPAIGN LAUNCH APPLICATION
-    - ID: "9102153d-ec29-4317-a4f2-5d361fe5fb07"
-      Hint: Read Me
-      Value: |
-        <div id="readme" class="md" data-path="README.md"><article class="markdown-body entry-content p-5" itemprop="text"><h1><a id="user-content-sitecore-cla" class="anchor" aria-hidden="true" href="#sitecore-cla"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>sitecore-cla</h1>
-        <p>Campaign Launch Application (CLA) is a Sitecore shared source module</p>
-        </article></div>
     - ID: "94d22b54-63c5-49b8-ad51-a214b7805418"
       Hint: Product Line
       Value: "{7AC73065-89C3-4542-ACE4-7F4F88F5693A}"

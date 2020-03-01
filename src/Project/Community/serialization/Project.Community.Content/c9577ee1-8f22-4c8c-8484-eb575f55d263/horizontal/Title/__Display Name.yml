@@ -8,7 +8,7 @@ BranchID: "0d360bbd-4fae-4863-88b9-ae5be82be6f0"
 SharedFields:
 - ID: "4753764c-c05a-4623-841b-97f85135241c"
   Hint: FieldName
-  Value: __Display name
+  Value: Title
 - ID: "dcb05e5e-7151-4226-a3b0-108c5e2f05b5"
   Hint: IsLink
   Value: 1

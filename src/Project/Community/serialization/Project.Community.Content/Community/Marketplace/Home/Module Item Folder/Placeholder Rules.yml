@@ -8,6 +8,9 @@ SharedFields:
 - ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
   Hint: Page Design
   Value: "{C0219AF0-03B5-4A70-8473-C76731B42AC3}"
+- ID: "97fb669d-5b8e-4829-9a24-06418c315d73"
+  Hint: SxaTags
+  Value: "{BA42DF0E-D17E-4F14-B590-3555230E0958}|{00BFFF83-1614-4B02-BAAC-6F812CADD85A}|{E4A7C01A-19FC-422F-82BD-14F0A88E4927}|{13BB9095-6AD1-4349-945C-D6FCF2953F4E}|{386A91AF-9C0D-4BF6-8F9E-10A7B5E7E786}|{0E06DC09-B9C9-469E-8867-259090D63FC1}|{B4CE45C0-4C7E-4FDD-AE45-96E59395AB9B}|{7D23832E-75AE-4975-BC51-74ED9DFD0D07}|{48A86D3A-AA71-4247-9B53-E573000CDA8E}"
 Languages:
 - Language: en
   Versions:
@@ -57,35 +60,37 @@ Languages:
     - ID: "eacac0a6-45dc-43a5-ad23-57c0fe938d4d"
       Hint: Content
       Value: |
-        <h1 style="color: #24292e; background-color: #ffffff; margin: 0px 0px 16px; padding-bottom: 0.3em; border-bottom: 1px solid #eaecef;">Sitecore - Community.Foundation.PlaceholderRules</h1>
-        <h2 style="color: #24292e; background-color: #ffffff; margin-top: 24px; margin-bottom: 16px; padding-bottom: 0.3em; border-bottom: 1px solid #eaecef;"><a id="user-content-summary" class="anchor" aria-hidden="true" href="https://github.com/digitalParkour/Community.Foundation.PlaceholderRules#summary" style="color: #0366d6; background-color: initial; margin-left: -20px; padding-right: 4px;"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
-        <path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
-        </svg></a>Summary</h2>
-        <p style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 16px;">This extensions allows you to manage allowed placeholder settings with rules (similar to insert option rules) instead of configuring placeholder setting items directly. This is helpful when using component driven design or using third party placeholders which can be overwritten with future upgrades (SXA).</p>
-        <h2 style="color: #24292e; background-color: #ffffff; margin-top: 24px; margin-bottom: 16px; padding-bottom: 0.3em; border-bottom: 1px solid #eaecef;"><a id="user-content-usage" class="anchor" aria-hidden="true" href="https://github.com/digitalParkour/Community.Foundation.PlaceholderRules#usage" style="color: #0366d6; background-color: initial; margin-left: -20px; padding-right: 4px;"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
-        <path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
-        </svg></a>Usage</h2>
-        <p style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 16px;">Manage rules under /sitecore/system/Settings/Rules/Placeholder Renderings/Rules</p>
-        <p style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 16px;"><a href="https://github.com/digitalParkour/Community.Foundation.PlaceholderRules/wiki/Usage" style="color: #0366d6; background-color: initial;">View screenshots in the wiki</a>.</p>
-        <h2 style="color: #24292e; background-color: #ffffff; margin-top: 24px; margin-bottom: 16px; padding-bottom: 0.3em; border-bottom: 1px solid #eaecef;"><a id="user-content-setup" class="anchor" aria-hidden="true" href="https://github.com/digitalParkour/Community.Foundation.PlaceholderRules#setup" style="color: #0366d6; background-color: initial; margin-left: -20px; padding-right: 4px;"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
-        <path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
-        </svg></a>Setup</h2>
-        <p style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 16px;">Either:</p>
-        <ul style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 16px; padding-left: 2em;">
-            <li>Install Sitecore package:<br />
-            \<a href="https://github.com/digitalParkour/Community.Foundation.PlaceholderRules/tree/master/releases" style="color: #0366d6; background-color: initial;">releases</a>\Community.Foundation.PlaceholderRules-*.zip</li>
+        <div id="readme" class="md" data-path="README.md"><article class="markdown-body entry-content p-5" itemprop="text"><h1><a id="user-content-sitecore---communityfoundationplaceholderrules" class="anchor" aria-hidden="true" href="#sitecore---communityfoundationplaceholderrules"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Sitecore - Community.Foundation.PlaceholderRules</h1>
+        <h2><a id="user-content-summary" class="anchor" aria-hidden="true" href="#summary"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Summary</h2>
+        <p>This extensions allows you to manage allowed placeholder settings with rules (similar to insert option rules) instead of configuring placeholder setting items directly. This is helpful when using component driven design or using third party placeholders which can be overwritten with future upgrades (SXA).</p>
+        <h2><a id="user-content-usage" class="anchor" aria-hidden="true" href="#usage"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Usage</h2>
+        <p>Manage rules under /sitecore/system/Settings/Rules/Placeholder Renderings/Rules</p>
+        <p><a href="https://github.com/digitalParkour/Community.Foundation.PlaceholderRules/wiki/Usage">View screenshots in the wiki</a>.</p>
+        <h2><a id="user-content-setup" class="anchor" aria-hidden="true" href="#setup"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Setup</h2>
+        <p>Either:</p>
+        <ul>
+        <li>Install Sitecore package:<br>
+        \<a href="https://github.com/digitalParkour/Community.Foundation.PlaceholderRules/tree/master/releases">releases</a>\Community.Foundation.PlaceholderRules-*.zip</li>
         </ul>
-        <p style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 16px;">Or:</p>
-        <ol style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 16px; padding-left: 2em;">
-            <li>Include this project in your Helix style solution</li>
-            <li style="margin-top: 0.25em;">Update NuGet references to match target sitecore version</li>
-            <li style="margin-top: 0.25em;">Install sitecore package for data or enable Foundation.PlaceholderRules.Serialization.config and sync unicorn</li>
+        <p>Or:</p>
+        <ol>
+        <li>Include this project in your Helix style solution</li>
+        <li>Update NuGet references to match target sitecore version</li>
+        <li>Install sitecore package for data or enable Foundation.PlaceholderRules.Serialization.config and sync unicorn</li>
         </ol>
-        <h2 style="color: #24292e; background-color: #ffffff; margin-top: 24px; margin-bottom: 16px; padding-bottom: 0.3em; border-bottom: 1px solid #eaecef;"><a id="user-content-fyi" class="anchor" aria-hidden="true" href="https://github.com/digitalParkour/Community.Foundation.PlaceholderRules#fyi" style="color: #0366d6; background-color: initial; margin-left: -20px; padding-right: 4px;"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
-        <path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
-        </svg></a>FYI</h2>
-        <p style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 16px;">This was built and tested with Sitecore 8.2 update 5 and update 6. Also works well with SXA.</p>
-        <p style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 16px;">This package adds the following files:</p>
-        <pre style="color: #24292e; background-color: #f6f8fa; margin-top: 0px; margin-bottom: 16px; padding: 16px;"><code style="margin: 0px; padding: 0px; border: 0px;">/bin/Community.Foundation.PlaceholderRules.dll /bin/Community.Foundation.PlaceholderRules.pdb /App_Config/Include/Foundation/Foundation.PlaceholderRules.config /App_Config/Include/Foundation/Foundation.PlaceholderRules.Serialization.config.example </code></pre>
-        <p style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 16px;">This package adds data items to the following locations:</p>
-        <pre style="color: #24292e; background-color: #f6f8fa; margin-top: 0px; margin-bottom: 0px; padding: 16px;"><code style="margin: 0px; padding: 0px; border: 0px;">/sitecore/templates/Foundation/PlaceholderRules /sitecore/system/Settings/Rules/placeholder-renderings /sitecore/system/Settings/Rules/Definitions/Tags/Placeholder Renderings /sitecore/system/Settings/Rules/Definitions/Elements/placeholder-renderings</code></pre>
+        <h2><a id="user-content-fyi" class="anchor" aria-hidden="true" href="#fyi"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>FYI</h2>
+        <p>This was built and tested with Sitecore 8.2 update 5 and update 6. Also works well with SXA.</p>
+        <p>This package adds the following files:</p>
+        <pre><code>/bin/Community.Foundation.PlaceholderRules.dll
+        /bin/Community.Foundation.PlaceholderRules.pdb
+        
+        /App_Config/Include/Foundation/Foundation.PlaceholderRules.config  
+        /App_Config/Include/Foundation/Foundation.PlaceholderRules.Serialization.config.example
+        </code></pre>
+        <p>This package adds data items to the following locations:</p>
+        <pre><code>/sitecore/templates/Foundation/PlaceholderRules
+        /sitecore/system/Settings/Rules/placeholder-renderings
+        /sitecore/system/Settings/Rules/Definitions/Tags/Placeholder Renderings
+        /sitecore/system/Settings/Rules/Definitions/Elements/placeholder-renderings
+        </code></pre>
+        </article></div>

@@ -4,6 +4,10 @@ Parent: "159f1fa5-54ab-4fdc-876f-e0c427e0a98d"
 Template: "51e67dfc-cca5-4283-9157-50d310732f11"
 Path: /sitecore/content/Community/Marketplace/Home/Module Item Folder/MEDIA EXPORTER
 DB: master
+SharedFields:
+- ID: "97fb669d-5b8e-4829-9a24-06418c315d73"
+  Hint: SxaTags
+  Value: "{BA42DF0E-D17E-4F14-B590-3555230E0958}|{E693D726-814C-42B3-9E2B-447F8E2843C7}|{2985FC95-F8C3-44D5-A5C9-E93ABAAA94FE}|{46B48277-CCCF-445E-8B95-E7CE35F2487E}|{2A61B05F-FFCB-4346-B389-C190B45AB230}|{90664826-2967-4E6B-95E9-5F397D3BEEF2}|{16B5EFF4-2124-453F-974C-EA495F7B1202}|{E4A7C01A-19FC-422F-82BD-14F0A88E4927}|{13BB9095-6AD1-4349-945C-D6FCF2953F4E}|{D136129E-71F9-4D67-BA18-950488D88789}|{58F3AE34-391B-44CC-803E-09DD7DD4772E}"
 Languages:
 - Language: en
   Versions:
@@ -35,9 +39,6 @@ Languages:
     - ID: "68f8c50f-6eca-44a1-b630-a2960125e61b"
       Hint: Title
       Value: MEDIA EXPORTER
-    - ID: "73a766c5-576a-49c3-ba97-43c5c75cb759"
-      Hint: Title
-      Value: MyApp
     - ID: "94d22b54-63c5-49b8-ad51-a214b7805418"
       Hint: Product Line
       Value: Sitecore
@@ -62,6 +63,26 @@ Languages:
     - ID: "eacac0a6-45dc-43a5-ad23-57c0fe938d4d"
       Hint: Content
       Value: |
-        <p style="color: #606060; background: #f8f8f8; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding: 0px; border: 0px;">The entire media library, nodes or the media library or&nbsp;individual folders can be exported as a zip file. This module does not currently support exporting a specific language version of a media item.&nbsp; Only the&nbsp;current version of the default language will be exported.</p>
-        <p style="color: #606060; background: #f8f8f8; margin: 0px; padding: 0px; border: 0px;">&nbsp;</p>
-        <p style="color: #606060; background: #f8f8f8; margin-top: 0px; margin-right: 0px; margin-left: 0px; padding: 0px; border: 0px;">* Note&nbsp;the current version of this module only supports Sitecore installations running on the&nbsp;.NET 4.0 framework.&nbsp;</p>
+        <div id="readme" class="md" data-path="README.md"><article class="markdown-body entry-content p-5" itemprop="text"><h1><a id="user-content-sitecore-media-exporter" class="anchor" aria-hidden="true" href="#sitecore-media-exporter"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>sitecore-media-exporter</h1>
+        <h2><a id="user-content-a-sitecore-module-to-export-media-library-items" class="anchor" aria-hidden="true" href="#a-sitecore-module-to-export-media-library-items"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>A Sitecore module to export Media Library items.</h2>
+        <ol>
+        <li>
+        <p>Install the package.</p>
+        </li>
+        <li>
+        <p>The SharedSource.MediaExporter.config file in the App_Config/Include folder allows you to choose where exported
+        zip files will be stored on the file system relative to the Data folder.</p>
+        </li>
+        <li>
+        <p>There will now be an additional button when viewing the contents of a folder in the Media Library to export all
+        media items in that folder.</p>
+        </li>
+        <li>
+        <p>Change the .NET version to 4.5</p>
+        </li>
+        <li>
+        <p>Ensure you are using Sitecore V7 and above</p>
+        </li>
+        </ol>
+        <p>This module assumes items are stored in the database vs the file system.</p>
+        </article></div>
