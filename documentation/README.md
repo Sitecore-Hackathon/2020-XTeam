@@ -45,28 +45,11 @@ Provide detailed instructions on how to install the module, and include screensh
     https://dev.sitecore.net/Downloads/Data_Exchange_Framework/4x/Data_Exchange_Framework_400.aspx
 3. Install the Sitecore installation package included at:
     [Path to our Sitecore package.]
-4. Build this solution and deploy to the root of your web application directory.
+    This will install the Sitecore resources and the DLLs for our project.
 
 ## Configuration
 
-You'll need to adjust the following settings to use our solution:
-[Note any settings that need to be adjusted post installation.]
-
-Remember you are using Markdown, you can provide code samples too:
-
-```xml
-<?xml version="1.0"?>
-<!--
-  Purpose: Configuration settings for my hackathon module
--->
-<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/">
-  <sitecore>
-    <settings>
-      <setting name="MyModule.Setting" value="Hackathon" />
-    </settings>
-  </sitecore>
-</configuration>
-```
+You should not need 
 
 ## Usage
 
@@ -79,21 +62,13 @@ We have two primary classes of users for our solution:
 - Contributors submitting Sitecore modules for consumption by the community.
 - Consumers coming to the marketplace seeking Sitecore components.
 
-Contributors
+Contributors will visit the the contribute form where they can input their module information along with 
+URLs for GitHub and their documentation. We will gather additional meta data from GitHub for display with
+search results.
 
-Provide documentation  about your module, how do the users use your module, where are things located, what do icons mean, are there any secret shortcuts etc.
-
-Please include screenshots where necessary. You can add images to the `./images` folder and then link to them from your documentation:
-
-![Hackathon Logo](images/hackathon.png?raw=true "Hackathon Logo")
-
-You can embed images of different formats too:
-
-![Deal With It](images/deal-with-it.gif?raw=true "Deal With It")
-
-And you can embed external images too:
-
-![Random](https://placeimg.com/480/240/any "Random")
+Consumers are primarily interested in searching for packages. We use Cortex tagging and SXA search to
+provide search accross the installed modules. We use Sitecore Data Exchange Framework to call out to 
+GitHub and retrieve addtional meta information on the search packages to enhance the user experience.
 
 ## Video
 
