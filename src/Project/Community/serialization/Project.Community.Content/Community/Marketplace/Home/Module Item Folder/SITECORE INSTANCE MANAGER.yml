@@ -62,151 +62,129 @@ Languages:
     - ID: "eacac0a6-45dc-43a5-ad23-57c0fe938d4d"
       Hint: Content
       Value: |
-        <h1 style="color: #24292e; background-color: #ffffff; margin: 0px 0px 16px; padding-bottom: 0.3em; border-bottom: 1px solid #eaecef;">Sitecore Instance Manager (SIM 1.6)</h1>
-        <p style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 16px;"><span>SIM 1.6 is an open source tool</span>&nbsp;for managing the local park of Sitecore instances. You can install, locate, maintain, reinstall or delete Sitecore products. It has API and plugin engine so you can extend it for any your need.</p>
-        <h3 style="color: #24292e; background-color: #ffffff; margin-top: 24px; margin-bottom: 16px;"><a id="user-content-download-sim-16-as-a-clickonce-app" class="anchor" aria-hidden="true" href="https://github.com/Sitecore/Sitecore-Instance-Manager#download-sim-16-as-a-clickonce-app" style="color: #0366d6; background-color: initial; margin-left: -20px; padding-right: 4px;"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
-        <path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
-        </svg></a><a href="http://dl.sitecore.net/updater/sim/v2" rel="nofollow" style="color: #0366d6; background-color: initial;">Download SIM 1.6</a>&nbsp;as a ClickOnce app</h3>
-        <h3 style="color: #24292e; background-color: #ffffff; margin-top: 24px; margin-bottom: 16px;"><a id="user-content-resources" class="anchor" aria-hidden="true" href="https://github.com/Sitecore/Sitecore-Instance-Manager#resources" style="color: #0366d6; background-color: initial; margin-left: -20px; padding-right: 4px;"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
-        <path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
-        </svg></a>Resources</h3>
-        <ol style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 16px; padding-left: 2em;">
-            <li><a href="https://github.com/Sitecore/Sitecore-Instance-Manager/wiki/Releases" style="color: #0366d6; background-color: initial;">Release History</a></li>
-            <li style="margin-top: 0.25em;"><a href="https://github.com/Sitecore/Sitecore-Instance-Manager/wiki/Documentation" style="color: #0366d6; background-color: initial;">Documentation</a></li>
-            <li style="margin-top: 0.25em;"><a href="https://github.com/Sitecore/Sitecore-Instance-Manager/wiki/Troubleshooting" style="color: #0366d6; background-color: initial;">Troubleshooting</a></li>
-            <li style="margin-top: 0.25em;"><a href="https://github.com/Sitecore/Sitecore-Instance-Manager/wiki/API" style="color: #0366d6; background-color: initial;">Developer Center</a></li>
-            <li style="margin-top: 0.25em;"><a href="https://github.com/Sitecore/Sitecore-Instance-Manager/wiki/Support" style="color: #0366d6; background-color: initial;">Contact Us</a></li>
+        <div id="readme" class="md" data-path="README.md"><article class="markdown-body entry-content p-5" itemprop="text"><h1><a id="user-content-sitecore-instance-manager-sim-16" class="anchor" aria-hidden="true" href="#sitecore-instance-manager-sim-16"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Sitecore Instance Manager (SIM 1.6)</h1>
+        <p><strong>SIM 1.6 is an open source tool</strong> for managing the local park of Sitecore instances. You can install, locate, maintain, reinstall or delete Sitecore products. It has API and plugin engine so you can extend it for any your need.</p>
+        <h3><a id="user-content-download-sim-16-as-a-clickonce-app" class="anchor" aria-hidden="true" href="#download-sim-16-as-a-clickonce-app"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="http://dl.sitecore.net/updater/sim/v2" rel="nofollow">Download SIM 1.6</a> as a ClickOnce app</h3>
+        <h3><a id="user-content-resources" class="anchor" aria-hidden="true" href="#resources"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Resources</h3>
+        <ol>
+        <li><a href="https://github.com/Sitecore/Sitecore-Instance-Manager/wiki/Releases">Release History</a></li>
+        <li><a href="https://github.com/Sitecore/Sitecore-Instance-Manager/wiki/Documentation">Documentation</a></li>
+        <li><a href="https://github.com/Sitecore/Sitecore-Instance-Manager/wiki/Troubleshooting">Troubleshooting</a></li>
+        <li><a href="https://github.com/Sitecore/Sitecore-Instance-Manager/wiki/API">Developer Center</a></li>
+        <li><a href="https://github.com/Sitecore/Sitecore-Instance-Manager/wiki/Support">Contact Us</a></li>
         </ol>
-        <p style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 16px;">Note, we are in progress of migrating from bitbucket to github so don't be confused by some of the links pointing back to bitbucket.</p>
-        <h3 style="color: #24292e; background-color: #ffffff; margin-top: 24px; margin-bottom: 16px;"><a id="user-content-features" class="anchor" aria-hidden="true" href="https://github.com/Sitecore/Sitecore-Instance-Manager#features" style="color: #0366d6; background-color: initial; margin-left: -20px; padding-right: 4px;"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
-        <path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
-        </svg></a>Features</h3>
-        <h4 style="color: #24292e; background-color: #ffffff; margin-top: 24px; margin-bottom: 16px;"><a id="user-content-global-features" class="anchor" aria-hidden="true" href="https://github.com/Sitecore/Sitecore-Instance-Manager#global-features" style="color: #0366d6; background-color: initial; margin-left: -20px; padding-right: 4px;"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
-        <path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
-        </svg></a>Global Features</h4>
-        <ol style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 16px; padding-left: 2em;">
-            <li><span>List</span>&nbsp;Sitecore websites installed locally and their modules</li>
-            <li style="margin-top: 0.25em;"><span>Install</span>&nbsp;new Sitecore standalone product</li>
-            <li style="margin-top: 0.25em;"><span>Install</span>&nbsp;Sitecore modules and packages</li>
-            <li style="margin-top: 0.25em;"><span>Download</span>&nbsp;Sitecore products from SDN and DEV</li>
-            <li style="margin-top: 0.25em;"><span>Back up</span>&nbsp;Sitecore websites, and&nbsp;<span>Restore</span>&nbsp;them</li>
-            <li style="margin-top: 0.25em;"><span>Export</span>&nbsp;Sitecore website and&nbsp;<span>Import</span>&nbsp;it on remote computer</li>
-            <li style="margin-top: 0.25em;"><span>Delete</span>&nbsp;Sitecore websites</li>
-            <li style="margin-top: 0.25em;"><span>Reinstall</span>&nbsp;Sitecore website</li>
+        <p>Note, we are in progress of migrating from bitbucket to github so don't be confused by some of the links pointing back to bitbucket.</p>
+        <h3><a id="user-content-features" class="anchor" aria-hidden="true" href="#features"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Features</h3>
+        <h4><a id="user-content-global-features" class="anchor" aria-hidden="true" href="#global-features"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Global Features</h4>
+        <ol>
+        <li><strong>List</strong> Sitecore websites installed locally and their modules</li>
+        <li><strong>Install</strong> new Sitecore standalone product</li>
+        <li><strong>Install</strong> Sitecore modules and packages</li>
+        <li><strong>Download</strong> Sitecore products from SDN and DEV</li>
+        <li><strong>Back up</strong> Sitecore websites, and <strong>Restore</strong> them</li>
+        <li><strong>Export</strong> Sitecore website and <strong>Import</strong> it on remote computer</li>
+        <li><strong>Delete</strong> Sitecore websites</li>
+        <li><strong>Reinstall</strong> Sitecore website</li>
         </ol>
-        <h4 style="color: #24292e; background-color: #ffffff; margin-top: 24px; margin-bottom: 16px;"><a id="user-content-open-in-browser" class="anchor" aria-hidden="true" href="https://github.com/Sitecore/Sitecore-Instance-Manager#open-in-browser" style="color: #0366d6; background-color: initial; margin-left: -20px; padding-right: 4px;"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
-        <path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
-        </svg></a>Open in Browser</h4>
-        <ul style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 16px; padding-left: 2em;">
-            <li>Open website</li>
-            <li style="margin-top: 0.25em;">Open Sitecore Client</li>
-            <li style="margin-top: 0.25em;">Open Sitecore Client (<a href="https://github.com/Sitecore/Sitecore-Instance-Manager/wiki/Log-in-admin" style="color: #0366d6; background-color: initial;">bypassing security, logging in as admin</a>)</li>
-            <li style="margin-top: 0.25em;">Open&nbsp;<a href="https://bitbucket.org/sitecoresupport/sitecore-support-toolbox" rel="nofollow" style="color: #0366d6; background-color: initial;">Support Toolbox</a></li>
+        <h4><a id="user-content-open-in-browser" class="anchor" aria-hidden="true" href="#open-in-browser"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Open in Browser</h4>
+        <ul>
+        <li>Open website</li>
+        <li>Open Sitecore Client</li>
+        <li>Open Sitecore Client (<a href="https://github.com/Sitecore/Sitecore-Instance-Manager/wiki/Log-in-admin">bypassing security, logging in as admin</a>)</li>
+        <li>Open <a href="https://bitbucket.org/sitecoresupport/sitecore-support-toolbox" rel="nofollow">Support Toolbox</a></li>
         </ul>
-        <h4 style="color: #24292e; background-color: #ffffff; margin-top: 24px; margin-bottom: 16px;"><a id="user-content-open-applications" class="anchor" aria-hidden="true" href="https://github.com/Sitecore/Sitecore-Instance-Manager#open-applications" style="color: #0366d6; background-color: initial; margin-left: -20px; padding-right: 4px;"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
-        <path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
-        </svg></a>Open applications</h4>
-        <ul style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 16px; padding-left: 2em;">
-            <li>Open Website folder</li>
-            <li style="margin-top: 0.25em;">Open Visual Studio 2012 project (create project if missing)</li>
-            <li style="margin-top: 0.25em;">Open web.config and other *.config files</li>
-            <li style="margin-top: 0.25em;">Open&nbsp;<code style="background-color: rgba(27, 31, 35, 0.05); margin: 0px; padding: 0.2em 0.4em;">showconfig.xml</code>&nbsp;configuration</li>
-            <li style="margin-top: 0.25em;">Open current log file in Dynamic Log Viewer</li>
-            <li style="margin-top: 0.25em;">Open entire log files in&nbsp;<a href="http://marketplace.sitecore.net/Modules/Sitecore_Log_Analyzer.aspx" rel="nofollow" style="color: #0366d6; background-color: initial;">Sitecore Log Analyzer</a></li>
+        <h4><a id="user-content-open-applications" class="anchor" aria-hidden="true" href="#open-applications"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Open applications</h4>
+        <ul>
+        <li>Open Website folder</li>
+        <li>Open Visual Studio 2012 project (create project if missing)</li>
+        <li>Open web.config and other *.config files</li>
+        <li>Open <code>showconfig.xml</code> configuration</li>
+        <li>Open current log file in Dynamic Log Viewer</li>
+        <li>Open entire log files in <a href="http://marketplace.sitecore.net/Modules/Sitecore_Log_Analyzer.aspx" rel="nofollow">Sitecore Log Analyzer</a></li>
         </ul>
-        <h4 style="color: #24292e; background-color: #ffffff; margin-top: 24px; margin-bottom: 16px;"><a id="user-content-change-website" class="anchor" aria-hidden="true" href="https://github.com/Sitecore/Sitecore-Instance-Manager#change-website" style="color: #0366d6; background-color: initial; margin-left: -20px; padding-right: 4px;"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
-        <path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
-        </svg></a>Change website</h4>
-        <ul style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 16px; padding-left: 2em;">
-            <li>Start/Stop App Pool</li>
-            <li style="margin-top: 0.25em;">Recycle App Pool</li>
-            <li style="margin-top: 0.25em;">Kill&nbsp;<code style="background-color: rgba(27, 31, 35, 0.05); margin: 0px; padding: 0.2em 0.4em;">w3wp.exe</code>&nbsp;process</li>
-            <li style="margin-top: 0.25em;">Change Framework version</li>
-            <li style="margin-top: 0.25em;">Change Framework bitness</li>
+        <h4><a id="user-content-change-website" class="anchor" aria-hidden="true" href="#change-website"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Change website</h4>
+        <ul>
+        <li>Start/Stop App Pool</li>
+        <li>Recycle App Pool</li>
+        <li>Kill <code>w3wp.exe</code> process</li>
+        <li>Change Framework version</li>
+        <li>Change Framework bitness</li>
         </ul>
-        <h4 style="color: #24292e; background-color: #ffffff; margin-top: 24px; margin-bottom: 16px;"><a id="user-content-solr-index-creation" class="anchor" aria-hidden="true" href="https://github.com/Sitecore/Sitecore-Instance-Manager#solr-index-creation" style="color: #0366d6; background-color: initial; margin-left: -20px; padding-right: 4px;"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
-        <path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
-        </svg></a>Solr index creation</h4>
-        <ul style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 16px; padding-left: 2em;">
-            <li>SIM now includes Solr support.
-            <ul style="margin-top: 0px; margin-bottom: 0px; padding-left: 2em;">
-                <li>For Sitecore 8.2, this is available as a Configuration Preset during the installation wizard.</li>
-                <li style="margin-top: 0.25em;">For Sitecore 8.1, it is necessary to download the appropriate "Solr support package" from&nbsp;<a href="http://dev.sitecore.net/downloads" rel="nofollow" style="color: #0366d6; background-color: initial;">http://dev.sitecore.net/downloads</a>, and to add it to SIM using the "Add Module" button on the "Modules list" screen during installation.</li>
-            </ul>
-            </li>
-            <li style="margin-top: 0.25em;">This supports Solr 4 and higher.
-            <ul style="margin-top: 0px; margin-bottom: 0px; padding-left: 2em;">
-                <li>Note: For Solr 4.x, the default "collection1" is used as a template, and must be present. For Solr 5.x and higher, the configuration located at&nbsp;<code style="background-color: rgba(27, 31, 35, 0.05); margin: 0px; padding: 0.2em 0.4em;">server\solr\configsets\data_driven_schema_configs</code>&nbsp;is used, as it has the language support required to index non-English text.</li>
-            </ul>
-            </li>
-            <li style="margin-top: 0.25em;">This module automates the following tasks:
-            <ul style="margin-top: 0px; margin-bottom: 0px; padding-left: 2em;">
-                <li>Activates all Solr config files, and deactivates matching Lucene config files (same name with "Lucene" replacing "Solr"), with the following exceptions:
-                <ul style="margin-top: 0px; margin-bottom: 0px; padding-left: 2em;">
-                    <li>Sitecore 8.2 Solr + IOC files are not enabled.</li>
-                    <li style="margin-top: 0.25em;">Lucene default configuration files&nbsp;<code style="background-color: rgba(27, 31, 35, 0.05); margin: 0px; padding: 0.2em 0.4em;">Sitecore.ContentSearch.Lucene.DefaultIndexConfiguration.config</code>&nbsp;and&nbsp;<code style="background-color: rgba(27, 31, 35, 0.05); margin: 0px; padding: 0.2em 0.4em;">Sitecore.ContentSearch.Lucene.DefaultIndexConfiguration.Xdb.config</code>&nbsp;are not disabled.</li>
-                    <li style="margin-top: 0.25em;">The unmatched configuration file&nbsp;<code style="background-color: rgba(27, 31, 35, 0.05); margin: 0px; padding: 0.2em 0.4em;">Sitecore.Social.Lucene.Index.Analytics.Facebook.config</code>&nbsp;is disabled as required.</li>
-                </ul>
-                </li>
-                <li style="margin-top: 0.25em;">Sets core name to instance name + index name (e.g. "sc82u0_sitecore_web_index")</li>
-                <li style="margin-top: 0.25em;">Copies configuration from "collection1" for each new core.</li>
-                <li style="margin-top: 0.25em;">Calls Sitecore schema update wizard ("Generate the Solr Schema.xml file") for each new core.</li>
-                <li style="margin-top: 0.25em;">Calls Solr API to create each core/collection.</li>
-                <li style="margin-top: 0.25em;">Indexes are left empty, but can be built from Control Panel/Indexing Manager.</li>
-                <li style="margin-top: 0.25em;">Enables Solr term support, as described&nbsp;<a href="https://doc.sitecore.net/sitecore_experience_platform/80/setting_up__maintaining/search_and_indexing/walkthrough_setting_up_solr#_Toc399318998" rel="nofollow" style="color: #0366d6; background-color: initial;">here.</a></li>
-            </ul>
-            </li>
+        <h4><a id="user-content-solr-index-creation" class="anchor" aria-hidden="true" href="#solr-index-creation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Solr index creation</h4>
+        <ul>
+        <li>SIM now includes Solr support.
+        <ul>
+        <li>For Sitecore 8.2, this is available as a Configuration Preset during the installation wizard.</li>
+        <li>For Sitecore 8.1, it is necessary to download the appropriate "Solr support package" from <a href="http://dev.sitecore.net/downloads" rel="nofollow">http://dev.sitecore.net/downloads</a>, and to add it to SIM using the "Add Module" button on the "Modules list" screen during installation.</li>
         </ul>
-        <h4 style="color: #24292e; background-color: #ffffff; margin-top: 24px; margin-bottom: 16px;"><a id="user-content-extra-features" class="anchor" aria-hidden="true" href="https://github.com/Sitecore/Sitecore-Instance-Manager#extra-features" style="color: #0366d6; background-color: initial; margin-left: -20px; padding-right: 4px;"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
-        <path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
-        </svg></a>Extra features</h4>
-        <ul style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 16px; padding-left: 2em;">
-            <li>Install MongoDB in one click</li>
-            <li style="margin-top: 0.25em;">Edit&nbsp;<code style="background-color: rgba(27, 31, 35, 0.05); margin: 0px; padding: 0.2em 0.4em;">etc\hosts</code>&nbsp;file</li>
-            <li style="margin-top: 0.25em;">Batch operations with SQL databases</li>
-            <li style="margin-top: 0.25em;">Predefined configurations (Enable MVC, Scaling ...)</li>
-            <li style="margin-top: 0.25em;">Delete All Instances - wizard for deleting all installed Sitecore instances</li>
-            <li style="margin-top: 0.25em;">Update Licenses - Updating Sitecore license file in all installed Sitecore instances</li>
-            <li style="margin-top: 0.25em;"><a href="https://marketplace.sitecore.net/en/Modules/Sitecore_Support_Package_Generator.aspx" rel="nofollow" style="color: #0366d6; background-color: initial;">SSPG</a>&nbsp;- Sitecore Support Package Generator for collecting detailed information about an instance</li>
-            <li style="margin-top: 0.25em;">Publish Dialog - executing Sitecore publishing in application</li>
+        </li>
+        <li>This supports Solr 4 and higher.
+        <ul>
+        <li>Note: For Solr 4.x, the default "collection1" is used as a template, and must be present. For Solr 5.x and higher, the configuration located
+        at <code>server\solr\configsets\data_driven_schema_configs</code> is used, as it has the language support required to index non-English text.</li>
         </ul>
-        <h3 style="color: #24292e; background-color: #ffffff; margin-top: 24px; margin-bottom: 16px;"><a id="user-content-prerequisites" class="anchor" aria-hidden="true" href="https://github.com/Sitecore/Sitecore-Instance-Manager#prerequisites" style="color: #0366d6; background-color: initial; margin-left: -20px; padding-right: 4px;"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
-        <path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
-        </svg></a>Prerequisites</h3>
-        <p style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 16px;">SIM will only work:</p>
-        <ul style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 16px; padding-left: 2em;">
-            <li>on&nbsp;<span>Windows 7+</span>, or&nbsp;<span>Windows Server 2008 R2+</span></li>
-            <li style="margin-top: 0.25em;">with&nbsp;<code style="background-color: rgba(27, 31, 35, 0.05); margin: 0px; padding: 0.2em 0.4em;">Administrator</code>&nbsp;permissions</li>
-            <li style="margin-top: 0.25em;">with direct internet access (no proxy)</li>
-            <li style="margin-top: 0.25em;">when&nbsp;<span>IIS is pre-configured</span>&nbsp;with all necessary features (check Sitecore installation guide for details)</li>
+        </li>
+        <li>This module automates the following tasks:
+        <ul>
+        <li>Activates all Solr config files, and deactivates matching Lucene config files (same name with "Lucene" replacing "Solr"), with the following exceptions:
+        <ul>
+        <li>Sitecore 8.2 Solr + IOC files are not enabled.</li>
+        <li>Lucene default configuration files <code>Sitecore.ContentSearch.Lucene.DefaultIndexConfiguration.config</code> and <code>Sitecore.ContentSearch.Lucene.DefaultIndexConfiguration.Xdb.config</code> are not disabled.</li>
+        <li>The unmatched configuration file <code>Sitecore.Social.Lucene.Index.Analytics.Facebook.config</code> is disabled as required.</li>
         </ul>
-        <p style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 16px;">For&nbsp;<code style="background-color: rgba(27, 31, 35, 0.05); margin: 0px; padding: 0.2em 0.4em;">Sitecore 9.0</code>:</p>
-        <ul style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 16px; padding-left: 2em;">
-            <li>with&nbsp;<span>local SQL Server 2016</span>&nbsp;(not 2017) instance with&nbsp;<code style="background-color: rgba(27, 31, 35, 0.05); margin: 0px; padding: 0.2em 0.4em;">sa</code>&nbsp;user account with&nbsp;<code style="background-color: rgba(27, 31, 35, 0.05); margin: 0px; padding: 0.2em 0.4em;">sysadmin</code>&nbsp;permissions</li>
-            <li style="margin-top: 0.25em;">with&nbsp;<a href="https://chocolatey.org/packages/ssdt15" rel="nofollow" style="color: #0366d6; background-color: initial;">ssdt15 chocolatey package</a>&nbsp;installed</li>
+        </li>
+        <li>Sets core name to instance name + index name (e.g. "sc82u0_sitecore_web_index")</li>
+        <li>Copies configuration from "collection1" for each new core.</li>
+        <li>Calls Sitecore schema update wizard ("Generate the Solr Schema.xml file") for each new core.</li>
+        <li>Calls Solr API to create each core/collection.</li>
+        <li>Indexes are left empty, but can be built from Control Panel/Indexing Manager.</li>
+        <li>Enables Solr term support, as described <a href="https://doc.sitecore.net/sitecore_experience_platform/80/setting_up__maintaining/search_and_indexing/walkthrough_setting_up_solr#_Toc399318998" rel="nofollow">here.</a></li>
         </ul>
-        <p style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 16px;">For&nbsp;<code style="background-color: rgba(27, 31, 35, 0.05); margin: 0px; padding: 0.2em 0.4em;">Sitecore 7.5, 8.0, 8.1 and 8.2</code>:</p>
-        <ul style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 16px; padding-left: 2em;">
-            <li>with&nbsp;<span>local MongoDB</span>&nbsp;instance pre-configured and running as a service</li>
-            <li style="margin-top: 0.25em;">with&nbsp;<span>local SQL Server 2012+</span>&nbsp;instance with&nbsp;<code style="background-color: rgba(27, 31, 35, 0.05); margin: 0px; padding: 0.2em 0.4em;">sa</code>&nbsp;user account with&nbsp;<code style="background-color: rgba(27, 31, 35, 0.05); margin: 0px; padding: 0.2em 0.4em;">sysadmin</code>&nbsp;permissions</li>
+        </li>
         </ul>
-        <h3 style="color: #24292e; background-color: #ffffff; margin-top: 24px; margin-bottom: 16px;"><a id="user-content-known-issues" class="anchor" aria-hidden="true" href="https://github.com/Sitecore/Sitecore-Instance-Manager#known-issues" style="color: #0366d6; background-color: initial; margin-left: -20px; padding-right: 4px;"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
-        <path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
-        </svg></a>Known Issues</h3>
-        <ul style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 16px; padding-left: 2em;">
-            <li><a href="https://github.com/Sitecore/Sitecore-Instance-Manager/wiki/KnownIssue-IntegratedSecurity" style="color: #0366d6; background-color: initial;">SQL Server integrated security is not supported</a></li>
-            <li style="margin-top: 0.25em;"><a href="https://github.com/Sitecore/Sitecore-Instance-Manager/wiki/KnownIssue-IpBindings" style="color: #0366d6; background-color: initial;">IIS ip bindings are not supported</a></li>
+        <h4><a id="user-content-extra-features" class="anchor" aria-hidden="true" href="#extra-features"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Extra features</h4>
+        <ul>
+        <li>Install MongoDB in one click</li>
+        <li>Edit <code>etc\hosts</code> file</li>
+        <li>Batch operations with SQL databases</li>
+        <li>Predefined configurations (Enable MVC, Scaling ...)</li>
+        <li>Delete All Instances - wizard for deleting all installed Sitecore instances</li>
+        <li>Update Licenses - Updating Sitecore license file in all installed Sitecore instances</li>
+        <li><a href="https://marketplace.sitecore.net/en/Modules/Sitecore_Support_Package_Generator.aspx" rel="nofollow">SSPG</a> - Sitecore Support Package Generator for collecting detailed information about an instance</li>
+        <li>Publish Dialog - executing Sitecore publishing in application</li>
         </ul>
-        <h3 style="color: #24292e; background-color: #ffffff; margin-top: 24px; margin-bottom: 16px;"><a id="user-content-supported-products" class="anchor" aria-hidden="true" href="https://github.com/Sitecore/Sitecore-Instance-Manager#supported-products" style="color: #0366d6; background-color: initial; margin-left: -20px; padding-right: 4px;"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
-        <path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
-        </svg></a>Supported Products</h3>
-        <ul style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 16px; padding-left: 2em;">
-            <li>Sitecore CMS 6.3 and later</li>
-            <li style="margin-top: 0.25em;">All Sitecore modules</li>
+        <h3><a id="user-content-prerequisites" class="anchor" aria-hidden="true" href="#prerequisites"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Prerequisites</h3>
+        <p>SIM will only work:</p>
+        <ul>
+        <li>on <strong>Windows 7+</strong>, or <strong>Windows Server 2008 R2+</strong></li>
+        <li>with <code>Administrator</code> permissions</li>
+        <li>with direct internet access (no proxy)</li>
+        <li>when <strong>IIS is pre-configured</strong> with all necessary features (check Sitecore installation guide for details)</li>
         </ul>
-        <p style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 16px;">Some of Sitecore modules have special support for initial configuration:</p>
-        <ul style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 0px; padding-left: 2em;">
-            <li>Active Directory</li>
-            <li style="margin-top: 0.25em;">Web Forms for Marketers</li>
-            <li style="margin-top: 0.25em;">E-mail Campaign Manager</li>
+        <p>For <code>Sitecore 9.0</code>:</p>
+        <ul>
+        <li>with <strong>local SQL Server 2016</strong> (not 2017) instance with <code>sa</code> user account with <code>sysadmin</code> permissions</li>
+        <li>with <a href="https://chocolatey.org/packages/ssdt15" rel="nofollow">ssdt15 chocolatey package</a> installed</li>
         </ul>
+        <p>For <code>Sitecore 7.5, 8.0, 8.1 and 8.2</code>:</p>
+        <ul>
+        <li>with <strong>local MongoDB</strong> instance pre-configured and running as a service</li>
+        <li>with <strong>local SQL Server 2012+</strong> instance with <code>sa</code> user account with <code>sysadmin</code> permissions</li>
+        </ul>
+        <h3><a id="user-content-known-issues" class="anchor" aria-hidden="true" href="#known-issues"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Known Issues</h3>
+        <ul>
+        <li><a href="https://github.com/Sitecore/Sitecore-Instance-Manager/wiki/KnownIssue-IntegratedSecurity">SQL Server integrated security is not supported</a></li>
+        <li><a href="https://github.com/Sitecore/Sitecore-Instance-Manager/wiki/KnownIssue-IpBindings">IIS ip bindings are not supported</a></li>
+        </ul>
+        <h3><a id="user-content-supported-products" class="anchor" aria-hidden="true" href="#supported-products"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Supported Products</h3>
+        <ul>
+        <li>Sitecore CMS 6.3 and later</li>
+        <li>All Sitecore modules</li>
+        </ul>
+        <p>Some of Sitecore modules have special support for initial configuration:</p>
+        <ul>
+        <li>Active Directory</li>
+        <li>Web Forms for Marketers</li>
+        <li>E-mail Campaign Manager</li>
+        </ul>
+        </article></div>

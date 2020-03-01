@@ -90,38 +90,38 @@ Languages:
     - ID: "eacac0a6-45dc-43a5-ad23-57c0fe938d4d"
       Hint: Content
       Value: |
-        <h2 style="color: #24292e; background-color: #ffffff; margin-top: 24px; margin-bottom: 16px; padding-bottom: 0.3em; border-bottom: 1px solid #eaecef;">Summary</h2>
-        <p style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 16px;">Design Sitecore pages more quickly and consistently by saving work to a prefabs library.</p>
-        <p style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 16px;">This module allows you to:<br />
-        1 &gt; select a section of a page you like and hit a "Make Prefab" button.<br />
-        ... this gets saved to a prefab library, then<br />
-        2 &gt; add prefab, just like any other rendering, to any page<br />
+        <div id="readme" class="md" data-path="README.md"><article class="markdown-body entry-content p-5" itemprop="text"><h1><a id="user-content-sitecore---prefabs" class="anchor" aria-hidden="true" href="#sitecore---prefabs"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Sitecore - Prefabs</h1>
+        <h2><a id="user-content-summary" class="anchor" aria-hidden="true" href="#summary"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Summary</h2>
+        <p>Design Sitecore pages more quickly and consistently by saving work to a prefabs library.</p>
+        <p>This module allows you to:<br>
+        1 &gt; select a section of a page you like and hit a "Make Prefab" button.<br>
+        ... this gets saved to a prefab library, then<br>
+        2 &gt; add prefab, just like any other rendering, to any page<br>
         ... in fact any language, version, device, placeholder path, etc</p>
-        <p style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 16px;"><a href="https://github.com/digitalParkour/Community.Foundation.Prefabs/wiki" style="color: #0366d6; background-color: initial;">View demo screenshots in the wiki</a>.</p>
-        <p style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 16px;">This was built and tested with Sitecore 8.2 update 5, MVC only. There is a&nbsp;<span>general release</span>&nbsp;and an&nbsp;<span>SXA supported release</span>.</p>
-        <p style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 16px;">It is designed with pipelines and IoC to ease extension and tailoring to your solution.</p>
-        <h2 style="color: #24292e; background-color: #ffffff; margin-top: 24px; margin-bottom: 16px; padding-bottom: 0.3em; border-bottom: 1px solid #eaecef;"><a id="user-content-setup" class="anchor" aria-hidden="true" href="https://github.com/digitalParkour/Community.Foundation.Prefabs#setup" style="color: #0366d6; background-color: initial; margin-left: -20px; padding-right: 4px;"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
-        <path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path>
-        </svg></a>Setup</h2>
-        <p style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 16px;">Either:</p>
-        <ul style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 16px; padding-left: 2em;">
-            <li>Install Sitecore package:<br />
-            \releases\Community.Foundation.Prefabs-*.zip (for&nbsp;<span>general release</span>)<br />
-            OR<br />
-            \releases\Community.Foundation.Prefabs-*.SXA.zip (for&nbsp;<span>sxa supported release</span>)
-            <ul style="margin-top: 0px; margin-bottom: 0px; padding-left: 2em;">
-                <li>Same as general with only two differences:
-                <ul style="margin-top: 0px; margin-bottom: 0px; padding-left: 2em;">
-                    <li>Foundation.Prefabs.Sxa.config is enabled</li>
-                    <li style="margin-top: 0.25em;">"Prefab" data template inherits "_SXA support" template for Experience Editor compatibility (SXA rendering parameter options don't work unless item inherits SXA page)</li>
-                </ul>
-                </li>
-            </ul>
-            </li>
+        <p><a href="https://github.com/digitalParkour/Community.Foundation.Prefabs/wiki">View demo screenshots in the wiki</a>.</p>
+        <p>This was built and tested with Sitecore 8.2 update 5, MVC only. There is a <strong>general release</strong> and an <strong>SXA supported release</strong>.</p>
+        <p>It is designed with pipelines and IoC to ease extension and tailoring to your solution.</p>
+        <h2><a id="user-content-setup" class="anchor" aria-hidden="true" href="#setup"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Setup</h2>
+        <p>Either:</p>
+        <ul>
+        <li>Install Sitecore package:<br>
+        \releases\Community.Foundation.Prefabs-*.zip (for <strong>general release</strong>)<br>
+        OR<br>
+        \releases\Community.Foundation.Prefabs-*.SXA.zip (for <strong>sxa supported release</strong>)
+        <ul>
+        <li>Same as general with only two differences:
+        <ul>
+        <li>Foundation.Prefabs.Sxa.config is enabled</li>
+        <li>"Prefab" data template inherits "_SXA support" template for Experience Editor compatibility (SXA rendering parameter options don't work unless item inherits SXA page)</li>
         </ul>
-        <p style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 16px;">Or:</p>
-        <ol style="color: #24292e; background-color: #ffffff; margin-top: 0px; margin-bottom: 0px; padding-left: 2em;">
-            <li>Include this project in your Helix style solution</li>
-            <li style="margin-top: 0.25em;">Update NuGet references to match target sitecore version</li>
-            <li style="margin-top: 0.25em;">Install sitecore package for data or enable Foundation.Prefabs.Serialization.config and sync unicorn</li>
+        </li>
+        </ul>
+        </li>
+        </ul>
+        <p>Or:</p>
+        <ol>
+        <li>Include this project in your Helix style solution</li>
+        <li>Update NuGet references to match target sitecore version</li>
+        <li>Install sitecore package for data or enable Foundation.Prefabs.Serialization.config and sync unicorn</li>
         </ol>
+        </article></div>
