@@ -41,11 +41,15 @@ Our module has the following requirements:
 Provide detailed instructions on how to install the module, and include screenshots where necessary.
 
 1. Install Sitecore 9.3 using the graphical installer, checking the option to install SXA.
-2. Install the Sitecore 9.3 Data Exchange Framework from the Sitecore installation package at:
+2. Do a SMart publish of the entire site.
+3. Install the Sitecore 9.3 Data Exchange Framework from the Sitecore installation package at:
     https://dev.sitecore.net/Downloads/Data_Exchange_Framework/4x/Data_Exchange_Framework_400.aspx
-3. Install the Sitecore installation package included at:
-    [Path to our Sitecore package.]
+4. Reboot the PC when prompted.
+5. Install the Sitecore installation package included at:
+    sc.package/xTeamHackathon2020.zip
     This will install the Sitecore resources and the DLLs for our project.
+
+    After this the project should be ready to run.
 
 ## Configuration
 
