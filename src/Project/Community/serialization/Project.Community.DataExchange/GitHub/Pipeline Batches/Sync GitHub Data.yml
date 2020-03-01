@@ -8,17 +8,17 @@ SharedFields:
 - ID: "2aa5c591-ff55-411d-96c0-978bb2c58b94"
   Hint: Log
   Value: |
-    C:\inetpub\wwwroot\xteam.local.test\App_Data\logs\DataExchange\GitHub\Sync.GitHub.Data.20200229.235741.txt
+    C:\inetpub\wwwroot\xteam.local.test\App_Data\logs\DataExchange\GitHub\Sync.GitHub.Data.20200301.003347.txt
 - ID: "6a2b2cbb-4338-4814-a8a9-9fecbb90456a"
   Hint: LastRunFinished
-  Value: 
+  Value: 20200301T004501Z
 - ID: "9061beea-df25-4b2b-a698-3f5b4e867d18"
   Hint: Pipelines
   Type: Treelist
   Value: "{5CEE423C-BAEF-4E01-8F72-C8CC2EBF93D1}"
 - ID: "985ba535-0f3e-4da8-a768-a469026de9db"
   Hint: RequestedAt
-  Value: 20200229T235741Z
+  Value: 20200301T003347Z
 - ID: "a846638e-a5c8-49a9-9c17-880e15005a34"
   Hint: TelemetryEnabled
   Type: Checkbox

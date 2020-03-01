@@ -1,0 +1,110 @@
+﻿---
+ID: "8e44dbef-e775-403d-a4c8-481b29030809"
+Parent: "159f1fa5-54ab-4fdc-876f-e0c427e0a98d"
+Template: "51e67dfc-cca5-4283-9157-50d310732f11"
+Path: /sitecore/content/Community/Marketplace/Home/Module Item Folder/Item LensXTeam
+DB: master
+SharedFields:
+- ID: "97fb669d-5b8e-4829-9a24-06418c315d73"
+  Hint: SxaTags
+  Value: 
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 150
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0a02003c-9c46-416d-8a28-5edaac8ae49c"
+      Hint: Release Date
+      Value: 20200301T002815Z
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200301T002815Z
+    - ID: "29ffcf6a-3300-4eef-bd80-59aa99404d18"
+      Hint: Download Count
+      Value: 0
+    - ID: "345d5bb4-a027-4a69-ac4f-a145e05474e2"
+      Hint: Git Hub URL
+      Value: |
+        <link linktype="external" url="https://github.com/digitalParkour/Community.Foundation.ItemLens" anchor="" target="" />
+    - ID: "4d64ce38-4dda-4072-a4f1-a781d09babd9"
+      Hint: Documentation URL
+      Value: "https://github.com/digitalParkour/Community.Foundation.ItemLens"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Item LensXTeam
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        extranet\Anonymous
+    - ID: "61b1cb45-6894-4931-8138-7d37864c4eaf"
+      Hint: Stars
+      Value: 0
+    - ID: "68f8c50f-6eca-44a1-b630-a2960125e61b"
+      Hint: Title
+      Value: Item LensXTeam
+    - ID: "94d22b54-63c5-49b8-ad51-a214b7805418"
+      Hint: Product Line
+      Value: "{7AC73065-89C3-4542-ACE4-7F4F88F5693A}"
+    - ID: "96375f05-4682-479b-9512-4d97c3611f16"
+      Hint: Author
+      Value: "XTeam!"
+    - ID: "a14f1b0c-4384-49ec-8790-28a440f3670c"
+      Hint: __Semantics
+      Type: Multilist with Search
+      Value: |
+        {2D3864C1-0E34-4E00-9938-0DA44B82CE55}
+        {80629C0B-5C9C-438B-BACB-6F073CB03F85}
+        {542F75FE-A62D-44B1-A602-CC5D0F3830C0}
+        {BA4C0EAB-E9F7-459C-B8FA-6B7CF8198A70}
+        {79405DEB-FD2B-4626-987E-224786EE5C1A}
+        {7D4636B7-A946-43F3-ABFD-F3E05BB1CA97}
+        {A7423815-2A42-4E41-95BA-A0C631FEBCCD}
+        {BE4C46FE-DBA9-460D-ABB4-7C9767B2BADD}
+        {CD7CC8A5-E6BE-4410-8F0D-133396247824}
+        {5110E395-6899-40AB-994F-BA5317E6864D}
+    - ID: "a6ec2225-f000-46a3-8fd0-a3d4812037f9"
+      Hint: Tested Against Sitecore Version
+      Type: Multilist
+      Value: "{B7C3D2D2-3B92-4557-B4C2-B769E1F5E07B}"
+    - ID: "b4633d93-7e3a-4d08-8b44-852cc925fd19"
+      Hint: Last Commit Date
+      Value: 20200301T002815Z
+    - ID: "d3741a17-c75f-49b0-80e9-dcbfbd2593f0"
+      Hint: Summary
+      Value: "Check it out!"
+    - ID: "eacac0a6-45dc-43a5-ad23-57c0fe938d4d"
+      Hint: Content
+      Value: |
+        <div id="readme" class="md" data-path="README.md"><article class="markdown-body entry-content p-5" itemprop="text"><h1><a id="user-content-sitecore---item-lens" class="anchor" aria-hidden="true" href="#sitecore---item-lens"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>﻿Sitecore - Item Lens</h1>
+        <h2><a id="user-content-summary" class="anchor" aria-hidden="true" href="#summary"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Summary</h2>
+        <p>Quickly identify Sitecore data discrepancies between states of cache, indexes, and publishing.</p>
+        <ul>
+        <li>Requires developer login</li>
+        <li>View data from API calls (Sitecore cache)</li>
+        <li>View data from SQL records</li>
+        <li>View data from Solr indexes</li>
+        <li>Compare values between sources</li>
+        <li>Color group highlighting of value matches</li>
+        <li>Cookie key to secure in CD instances</li>
+        </ul>
+        <h2><a id="user-content-example" class="anchor" aria-hidden="true" href="#example"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Example</h2>
+        <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/digitalParkour/Community.Foundation.ItemLens/raw/master/screenshots/ItemLensExample.png"><img src="https://github.com/digitalParkour/Community.Foundation.ItemLens/raw/master/screenshots/ItemLensExample.png" alt="alt text" title="Screenshot Example" style="max-width:100%;"></a></p>
+        <h2><a id="user-content-installation" class="anchor" aria-hidden="true" href="#installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installation</h2>
+        <p>Either:</p>
+        <ul>
+        <li>Install Sitecore package. <a href="https://github.com/digitalParkour/Community.Foundation.ItemLens/releases">See Releases</a>.
+        <blockquote>
+        <p>To use on CD instances, copy files from package to CD server.
+        See config file for setting a unique cookie to access tool without login</p>
+        </blockquote>
+        </li>
+        </ul>
+        <p>Or:</p>
+        <ol>
+        <li>Include this project in your Helix style solution</li>
+        <li>Update NuGet references to match target sitecore version</li>
+        </ol>
+        </article></div>
